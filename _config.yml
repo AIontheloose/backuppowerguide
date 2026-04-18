@@ -28,11 +28,10 @@ defaults:
       share: true
       related: true
 
-permalink: /:categories/:title/
+permalink: /:year/:month/:day/:title/
 
 paginate: 10
 paginate_path: /page:num/
 
 encoding: utf-8
 markdown: kramdown
-future:true
