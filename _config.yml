@@ -1,0 +1,37 @@
+title: Backup Power Guide
+email: 
+description: Your trusted resource for home backup power, generators, solar systems, and off-grid energy solutions.
+url: "https://aiontheloose.github.io"
+baseurl: "/backuppowerguide"
+
+theme: minimal-mistakes-jekyll
+
+minimal_mistakes_skin: "dark"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+author:
+  name: "Backup Power Guide"
+  bio: "Expert reviews and guides on home backup power systems, generators, solar panels, and off-grid energy."
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      share: true
+      related: true
+
+permalink: /:categories/:title/
+
+paginate: 10
+paginate_path: /page:num/
+
+encoding: utf-8
+markdown: kramdown
