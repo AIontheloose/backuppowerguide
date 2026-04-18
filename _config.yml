@@ -4,7 +4,7 @@ description: Your trusted resource for home backup power, generators, solar syst
 url: "https://aiontheloose.github.io"
 baseurl: "/backuppowerguide"
 
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 
 minimal_mistakes_skin: "dark"
 
