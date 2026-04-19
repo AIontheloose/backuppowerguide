@@ -1,0 +1,17 @@
+main:
+  - title: "Energy & Power"
+    url: /energy-power/
+  - title: "Home & Garden"
+    url: /home-garden/
+  - title: "Outdoors & Camping"
+    url: /outdoors-camping/
+  - title: "Finance"
+    url: /finance/
+  - title: "Technology"
+    url: /technology/
+  - title: "Health"
+    url: /health/
+  - title: "Automotive"
+    url: /automotive/
+  - title: "Seasonal"
+    url: /seasonal/
