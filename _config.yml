@@ -3,8 +3,6 @@ email:
 description: Your trusted resource for home backup power, generators, solar systems, and off-grid energy solutions.
 url: "https://aiontheloose.github.io"
 baseurl: "/backuppowerguide"
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "dark"
 future: true
 
 plugins:
