@@ -83,4 +83,4 @@ To help you bring these seasonal decorating ideas into your home, here are some 
    [Essential Oil Diffuser](https://www.amazon.com.au/s?k=essential+oil+diffuser&tag=owlno-22) – Great for creating a relaxing atmosphere, especially during colder months.
 
 3. **Throw Blankets:**
-   [Soft Cashmere Throw Blanket](https://www.amazon.com.au/s?k=soft+cashmere+throw+blanket&tag=
+   [Soft Cashmere Throw Blanket](https://www.amazon.com.au/s?k=soft+cashmere+throw+blanket&tag=owlno-22) – Great for creating a touch of class, style without the price tag.
