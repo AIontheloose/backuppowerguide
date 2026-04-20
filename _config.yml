@@ -1,4 +1,4 @@
-title: Backup Power Guide
+title: OWLNO
 email:
 description: Your trusted resource for home backup power, generators, solar systems, and off-grid energy solutions.
 url: "https://aiontheloose.github.io"
@@ -12,7 +12,7 @@ plugins:
   - jekyll-paginate
 
 author:
-  name: "Backup Power Guide"
+  name: "OWLNO"
   bio: "Expert reviews and guides on home backup power systems, generators, solar panels, and off-grid energy."
 
 nav_links:
