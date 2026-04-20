@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<div class="home-wrap">
+
+  <!-- Carousel hero -->
+  <section class="hero-carousel">
+    <div class="carousel-track" id="carouselTrack">
+      {% for post in site.posts limit: 8 %}
+      {% assign fallback_img = "https://picsum.photos/seed/" | append: forloop.index | append: "/1400/600" %}
+      {% assign hero_img = post.image | default: fallback_img %}
+      <div class="carousel-slide" style="background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.7)), url('{{ hero_img }}')">
+        <div class="carousel-content">
+          <span class="hero-category">{{ post.categories | first | upcase }}</span>
+          <h2 class="hero-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <p class="hero-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+          <span class="hero-meta">{{ post.date | date: "%B %-d, %Y" }} &bull; {{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <button class="carousel-btn prev" onclick="moveCarousel(-1)">&#10094;</button>
+    <button class="carousel-btn next" onclick="moveCarousel(1)">&#10095;</button>
+    <div class="carousel-dots" id="carouselDots"></div>
+  </section>
+
+  <div class="content-wrap">
+    <div class="main-content">
+
+      <section class="articles-section">
+        <div class="section-header">
+          <h2 class="section-title">Latest Guides</h2>
+          <span class="section-line"></span>
+        </div>
+        <div class="articles-grid">
+          {% for post in site.posts limit: 12 %}
+          {% assign fallback_thumb = "https://picsum.photos/seed/" | append: forloop.index | append: "/400/250" %}
+          {% assign thumb_img = post.image_thumb | default: fallback_thumb %}
+          <article class="article-card">
+            <a href="{{ post.url | relative_url }}" class="article-thumb" style="background-image: url('{{ thumb_img }}')"></a>
+            <div class="article-card-body">
+              <span class="article-category">{{ post.categories | first }}</span>
+              <h3 class="article-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              <p class="article-excerpt">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+              <span class="article-meta">{{ post.date | date: "%b %-d, %Y" }} &bull; {{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+
+    </div>
+
+    <aside class="sidebar">
+      <div class="sidebar-widget newsletter-widget">
+        <h3>Get Weekly Guides</h3>
+        <p>Free expert guides delivered to your inbox every week.</p>
+        <form action="#" method="post">
+          <input type="email" name="email" placeholder="Enter your email">
+          <button type="submit">Subscribe Free</button>
+        </form>
+      </div>
+      <div class="sidebar-widget popular-widget">
+        <h3>Most Popular</h3>
+        <ul class="popular-list">
+          {% for post in site.posts limit: 8 %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title | truncate: 60 }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="sidebar-widget ad-widget">
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7933433521355116" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+    </aside>
+  </div>
+
+</div>
