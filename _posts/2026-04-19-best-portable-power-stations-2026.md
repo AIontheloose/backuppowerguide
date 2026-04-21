@@ -2,7 +2,7 @@
 layout: single
 title: "Best Portable Power Stations for 2026: A Comprehensive Guide"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, portable power stations, energy storage, home backup]
 excerpt: "Discover the best portable power stations in 2026 that will keep your home powered through outages and emergencies. Learn key features to look for."
 ---

@@ -2,7 +2,7 @@
 layout: single
 title: "Carbon Monoxide Safety: A Guide for Generator Use at Home"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, carbon-monoxide-safety, home-energy]
 excerpt: "Ensure your safety and that of your family during power outages by understanding the risks of using generators and how to safely operate them. Learn about important safety measures and recommended products."
 ---
@@ -25,7 +25,7 @@ Carbon monoxide is an odorless, colorless gas produced by burning fossil fuels l
 
 4. **Regular Maintenance**: Keep your generator well-maintained and serviced regularly. A poorly maintained generator can produce more CO than usual, increasing the risk of poisoning.
 
-5. **Follow Manufacturer’s Instructions**: Always read and follow the manufacturer's instructions for safe operation. This includes proper storage and handling of fuel as well as correct setup and use of the unit.
+5. **Follow Manufacturerâ€™s Instructions**: Always read and follow the manufacturer's instructions for safe operation. This includes proper storage and handling of fuel as well as correct setup and use of the unit.
 
 ## Recommended Products
 
@@ -37,7 +37,7 @@ For temporary backup power needs during outages, portable generators are an exce
 
 ### Carbon Monoxide Detectors
 
-A carbon monoxide detector can provide early warning of dangerous levels, ensuring everyone in the home stays safe. Here’s a highly rated option:
+A carbon monoxide detector can provide early warning of dangerous levels, ensuring everyone in the home stays safe. Hereâ€™s a highly rated option:
 
 [View Carbon Monoxide Detectors on Amazon](https://www.amazon.com.au/s?k=carbon+monoxide+detector&tag=owlno-22)
 

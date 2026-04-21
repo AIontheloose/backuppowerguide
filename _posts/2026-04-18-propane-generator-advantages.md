@@ -2,7 +2,7 @@
 layout: single
 title: "Why Propane Generators Are Ideal for Home Backup Power"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Discover the advantages of using propane generators as a reliable backup power source for your home."
 ---

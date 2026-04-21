@@ -564,3 +564,80 @@ img { max-width: 100%; height: auto; display: block; }
   .logo-main { font-size: 24px; }
   .header-right { display: none; }
 }
+
+/* ===== INFO BAR (weather/datetime) ===== */
+.info-bar {
+  background: #1a1a1a;
+  border-bottom: 1px solid #2a2a2a;
+  padding: 5px 0;
+  font-size: 12px;
+}
+.info-bar-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-bar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ccc;
+}
+.info-datetime { color: #aaa; }
+.info-divider { color: #444; }
+.info-weather {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #ccc;
+}
+#weatherIcon { font-size: 14px; }
+#weatherTemp { font-weight: 600; color: #fff; }
+#weatherDesc { color: #aaa; }
+#weatherCity { color: #888; font-size: 11px; }
+.info-bar-right { display: flex; gap: 16px; }
+.info-bar-right a { color: #888; font-size: 12px; transition: color 0.2s; }
+.info-bar-right a:hover { color: #fff; }
+
+/* ===== MARKETS TICKER ===== */
+.markets-ticker {
+  width: 100%;
+  background: #131722;
+}
+.markets-ticker .tradingview-widget-container { width: 100%; }
+
+/* ===== POST IMAGE CREDIT ===== */
+.post-image-credit { font-size: 11px; color: #bbb; font-style: italic; }
+
+@media (max-width: 768px) {
+  .info-bar-right { display: none; }
+  #weatherCity { display: none; }
+  .info-datetime { font-size: 11px; }
+}
+
+/* ===== CATEGORY PAGE ===== */
+.category-page-wrap { margin-top: 32px; }
+.category-page-header {
+  background: var(--dark);
+  color: var(--white);
+  padding: 32px;
+  margin-bottom: 32px;
+  border-left: 6px solid var(--red);
+}
+.category-page-title {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+.category-page-desc { font-size: 16px; color: #bbb; }
+.no-posts {
+  background: var(--white);
+  padding: 40px;
+  text-align: center;
+  color: var(--light);
+  border: 1px solid var(--border);
+}

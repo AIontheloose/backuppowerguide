@@ -2,7 +2,7 @@
 layout: single
 title: "How Long Can a Generator Run? Unveiling the Truth Behind Backup Power"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Learn about the run times of different generator types and discover which generator can provide reliable backup power for your home."
 ---
@@ -45,7 +45,7 @@ For complete home coverage during outages, whole house generators are the go-to 
 ## Ensuring Reliable Backup Power
 
 ### Tips for Maximizing Runtime
-1. **Regular Maintenance**: Follow the manufacturer’s guidelines to keep your generator in top condition.
+1. **Regular Maintenance**: Follow the manufacturerâ€™s guidelines to keep your generator in top condition.
 2. **Use Quality Fuel**: Always use high-quality gasoline or diesel, and consider stabilizers to extend fuel life.
 3. **Proper Load Management**: Avoid overloading the generator by managing the connected appliances.
 
@@ -54,7 +54,7 @@ Selecting a generator that fits your specific needs is essential for ensuring re
 
 ## Conclusion
 
-Understanding how long a generator can run helps in making informed decisions about the type and capacity needed for your home’s backup power solution. Whether it's a portable unit for emergencies or a whole house generator for continuous operation, choosing the right generator can make all the difference during power outages.
+Understanding how long a generator can run helps in making informed decisions about the type and capacity needed for your homeâ€™s backup power solution. Whether it's a portable unit for emergencies or a whole house generator for continuous operation, choosing the right generator can make all the difference during power outages.
 
 ---
 

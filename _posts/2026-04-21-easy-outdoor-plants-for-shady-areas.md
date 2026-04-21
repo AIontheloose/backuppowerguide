@@ -2,7 +2,7 @@
 layout: single
 title: "Easy Outdoor Plants for Shady Areas"
 date: 2026-04-21
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image: "https://images.pexels.com/photos/34546871/pexels-photo-34546871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image_thumb: "https://images.pexels.com/photos/34546871/pexels-photo-34546871.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"

@@ -2,7 +2,7 @@
 layout: single
 title: "Integrating Smart Home Backup Power Solutions for Enhanced Reliability"
 date: 2026-04-20
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image_keyword: "smart home technology integration"
 excerpt: "Discover how smart home backup power systems can keep your life running smoothly during power outages."

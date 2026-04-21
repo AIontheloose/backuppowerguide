@@ -2,7 +2,7 @@
 layout: single
 title: "How to Choose a UPS for Your Home Office"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Discover the best UPS options for your home office to ensure uninterrupted power and protect sensitive electronic devices."
 ---
@@ -42,7 +42,7 @@ A UPS acts as an intermediary between your electrical devices and the mains powe
 
 ### Model B: CyberPower CP1500AVRLCD UPS
    - Suitable for larger home offices with more demanding power needs.
-   - Equipped with an LCD screen and advanced surge protection, making it easy to monitor the system’s status.
+   - Equipped with an LCD screen and advanced surge protection, making it easy to monitor the systemâ€™s status.
    - [CyberPower CP1500AVRLCD](https://www.amazon.com.au/s?k=cyberpower+cp1500avrlcd&tag=owlno-22)
 
 ### Model C: Tripp Lite SV1500i UPS

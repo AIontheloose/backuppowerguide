@@ -2,7 +2,7 @@
 layout: single
 title: "Generator Safety Tips for Home Backup Power"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Learn essential generator safety tips to ensure a safe and reliable backup power system in your home."
 ---
@@ -13,12 +13,12 @@ When the power goes out, having a backup generator can provide peace of mind. Ho
 
 ## Understanding Generators: What You Need to Know
 
-Before diving into the safety measures, let’s quickly review what generators are and how they work. A generator converts fuel energy (usually gasoline or diesel) into electrical energy, providing a reliable source of electricity during outages. Proper handling ensures that this process is safe for you and your home.
+Before diving into the safety measures, letâ€™s quickly review what generators are and how they work. A generator converts fuel energy (usually gasoline or diesel) into electrical energy, providing a reliable source of electricity during outages. Proper handling ensures that this process is safe for you and your home.
 
 ## Safety Tips: Before You Start
 
 ### 1. **Proper Placement**
-Always place the generator outdoors to prevent carbon monoxide poisoning from its exhaust fumes. Position it at least 20 feet away from your house’s doors, windows, and vents to avoid gas inhalation.
+Always place the generator outdoors to prevent carbon monoxide poisoning from its exhaust fumes. Position it at least 20 feet away from your houseâ€™s doors, windows, and vents to avoid gas inhalation.
 
 ### 2. **Fuel Storage**
 Store fuel in a well-ventilated area that is not inside your home or garage. Use only approved containers designed for storing gasoline or diesel, and ensure they are clearly labeled as flammable liquids.
@@ -55,7 +55,7 @@ If your generator is making strange noises, it could indicate a problem with its
 
 ## Conclusion
 
-By following these essential safety tips for generators, you can ensure that your backup power system not only provides reliable electricity but also remains safe to operate. Remember, proper maintenance and careful handling are key to maximizing both the performance and safety of your generator. Stay informed and prepared with Backup Power Guide’s comprehensive guides and resources.
+By following these essential safety tips for generators, you can ensure that your backup power system not only provides reliable electricity but also remains safe to operate. Remember, proper maintenance and careful handling are key to maximizing both the performance and safety of your generator. Stay informed and prepared with Backup Power Guideâ€™s comprehensive guides and resources.
 
 ---
 

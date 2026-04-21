@@ -2,7 +2,7 @@
 layout: single
 title: "How to Sleep Better with a Consistent Routine"
 date: 2026-04-20
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image: "https://images.pexels.com/photos/7303926/pexels-photo-7303926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image_thumb: "https://images.pexels.com/photos/7303926/pexels-photo-7303926.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -20,7 +20,7 @@ Sleep is essential for rejuvenating your body and mind. It helps with cognitive 
 
 ### The Role of Routine in Sleep
 
-A consistent bedtime routine signals to your body that it’s time to wind down for the night. This helps regulate your circadian rhythm—the natural cycle that controls sleep-wake patterns. By establishing a regular pattern, you can train your body to fall asleep more easily and stay asleep longer.
+A consistent bedtime routine signals to your body that itâ€™s time to wind down for the night. This helps regulate your circadian rhythmâ€”the natural cycle that controls sleep-wake patterns. By establishing a regular pattern, you can train your body to fall asleep more easily and stay asleep longer.
 
 ## Establishing a Consistent Sleep Routine
 

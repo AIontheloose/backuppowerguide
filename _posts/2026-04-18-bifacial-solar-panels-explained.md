@@ -2,7 +2,7 @@
 layout: single
 title: "Bifacial Solar Panels Explained"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Discover how bifacial solar panels work and whether they are a smart choice for your home energy needs."
 ---

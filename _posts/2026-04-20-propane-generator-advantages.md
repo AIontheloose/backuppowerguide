@@ -2,7 +2,7 @@
 layout: single
 title: "Propane Generator Advantages for Your Home Backup Power Needs"
 date: 2026-04-20
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image_keyword: "propane tank generator"
 excerpt: "Discover the advantages of propane generators and why they are a top choice for backup power in your home."

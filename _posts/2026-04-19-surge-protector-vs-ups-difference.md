@@ -2,7 +2,7 @@
 layout: single
 title: "Surge Protectors vs UPS: What's the Difference for Home Backup Power?"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, surge protectors, ups, home-energy]
 excerpt: "Understanding the difference between a surge protector and an uninterruptible power supply (UPS) is crucial to ensuring your home electronics are protected."
 ---

@@ -2,7 +2,7 @@
 layout: single
 title: "Your Ultimate Guide to Solar Charge Controllers"
 date: 2026-04-21
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image: "https://images.pexels.com/photos/9800030/pexels-photo-9800030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image_thumb: "https://images.pexels.com/photos/9800030/pexels-photo-9800030.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"

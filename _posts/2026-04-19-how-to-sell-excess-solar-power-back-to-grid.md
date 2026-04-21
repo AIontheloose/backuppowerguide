@@ -2,7 +2,7 @@
 layout: single
 title: "How to Sell Excess Solar Power Back to Grid"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Learn how to generate and sell excess solar power back to the grid for added savings on your energy bills."
 ---
@@ -13,7 +13,7 @@ Are you looking to make your home more sustainable while also cutting down on el
 
 ## Understanding Net Metering
 
-Before diving into how to sell excess solar power, it’s crucial to understand net metering. **Net metering** allows homeowners with solar panels to feed their extra energy back into the grid. In return, they receive credits on their electricity bills or even cash payments from utility companies for this surplus energy.
+Before diving into how to sell excess solar power, itâ€™s crucial to understand net metering. **Net metering** allows homeowners with solar panels to feed their extra energy back into the grid. In return, they receive credits on their electricity bills or even cash payments from utility companies for this surplus energy.
 
 ### Step-by-Step Guide
 
@@ -27,7 +27,7 @@ Before diving into how to sell excess solar power, it’s crucial to understand 
 For generating clean and renewable energy, choosing the right solar panels is crucial. [View Solar Panels on Amazon](https://www.amazon.com.au/s?k=solar+panels+home&tag=owlno-22)
 
 ### Generators (for Backup Power)
-While you’re harnessing the sun’s power, it might be wise to have a backup generator for those cloudy days or emergencies. [View Portable Generators on Amazon](https://www.amazon.com.au/s?k=portable+generator&tag=owlno-22)
+While youâ€™re harnessing the sunâ€™s power, it might be wise to have a backup generator for those cloudy days or emergencies. [View Portable Generators on Amazon](https://www.amazon.com.au/s?k=portable+generator&tag=owlno-22)
 
 ### Battery Backup Systems
 To store excess energy and use it during peak hours or outages, consider investing in a battery backup system. [View Battery Backup Systems on Amazon](https://www.amazon.com.au/s?k=home+battery+backup&tag=owlno-22)

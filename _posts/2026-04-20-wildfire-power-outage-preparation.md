@@ -2,7 +2,7 @@
 layout: single
 title: "Wildfire Power Outage Preparation: Keep Your Home Safe and Energized"
 date: 2026-04-20
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image_keyword: "wildfire emergency evacuation"
 excerpt: "Learn how to prepare your home for wildfire power outages with reliable backup power solutions."
@@ -38,4 +38,4 @@ For added convenience and portability, a battery backup system like the [DynaPak
 
 Wildfire power outages are unpredictable but manageable with the right preparation. By choosing appropriate backup power solutions and staying informed about potential risks, you can ensure your home remains safe and functional during emergencies. Whether it's a portable generator for quick access or a solar backup system for long-term reliability, taking proactive steps now can make all the difference in protecting your loved ones and property.
 
-By following these recommendations from Backup Power Guide, you're not just preparing for wildfires; you’re safeguarding your home against any unexpected power loss.
+By following these recommendations from Backup Power Guide, you're not just preparing for wildfires; youâ€™re safeguarding your home against any unexpected power loss.

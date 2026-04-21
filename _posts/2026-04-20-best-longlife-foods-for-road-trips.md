@@ -2,7 +2,7 @@
 layout: single
 title: "Best Long-Life Foods for Road Trips"
 date: 2026-04-20
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image: "https://images.pexels.com/photos/7235602/pexels-photo-7235602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image_thumb: "https://images.pexels.com/photos/7235602/pexels-photo-7235602.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -18,7 +18,7 @@ Embarking on a road trip is an exciting adventure, but it can also be challengin
 
 ### [Dried Mango Slices](https://www.amazon.com.au/s?k=dried+mango+snacks&tag=owlno-22)
 
-Dried fruits like mango slices are not only delicious but also packed with essential vitamins, fiber, and natural sugars that provide a quick energy boost. They’re lightweight and easy to carry in your bag or car.
+Dried fruits like mango slices are not only delicious but also packed with essential vitamins, fiber, and natural sugars that provide a quick energy boost. Theyâ€™re lightweight and easy to carry in your bag or car.
 
 ### [Almonds](https://www.amazon.com.au/s?k=almonds&tag=owlno-22)
 
@@ -38,7 +38,7 @@ A serving of canned vegetable soup not only provides hydration but also offers a
 
 ### [Beef Jerky](https://www.amazon.com.au/s?k=beef+jerky&tag=owlno-22)
 
-Jerky is a classic road trip snack that’s rich in protein and can last for weeks if stored properly. It's easy to chew, doesn’t require refrigeration, and is an excellent choice when you need quick energy.
+Jerky is a classic road trip snack thatâ€™s rich in protein and can last for weeks if stored properly. It's easy to chew, doesnâ€™t require refrigeration, and is an excellent choice when you need quick energy.
 
 ## 4. Energy Bars
 
@@ -50,7 +50,7 @@ Energy bars, especially those with high protein content, are a staple for road t
 
 ### [Granola Bars](https://www.amazon.com.au/s?k=granola+bars&tag=owlno-22)
 
-Granola bars are another great option for road trips as they’re high in fiber, protein, and healthy fats, offering a balanced snack that keeps you full longer. They’re also easy to eat on the go.
+Granola bars are another great option for road trips as theyâ€™re high in fiber, protein, and healthy fats, offering a balanced snack that keeps you full longer. Theyâ€™re also easy to eat on the go.
 
 ## 6. Popcorn
 

@@ -2,7 +2,7 @@
 layout: single
 title: "Budget-Friendly Outdoor Lighting Ideas for Your Home"
 date: 2026-04-20
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image: "https://images.pexels.com/photos/31136890/pexels-photo-31136890.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image_thumb: "https://images.pexels.com/photos/31136890/pexels-photo-31136890.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"

@@ -2,7 +2,7 @@
 layout: single
 title: "Carbon Monoxide Safety with Generators: Protecting Your Home"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, carbon-monoxide, safety, home-energy]
 excerpt: "Learn how to safely use generators for backup power and prevent the dangers of carbon monoxide poisoning."
 ---
@@ -51,7 +51,7 @@ Proper ventilation is key to preventing carbon monoxide buildup. Ensure that the
 1. **Read the Manual:** Always start by reading the manufacturer's instructions thoroughly before using any generator. Follow all safety guidelines provided.
 2. **Use an Alarm:** Install a carbon monoxide alarm near areas where you'll be using your generator, such as outside near doors and windows.
 3. **Proper Wiring:** If using the generator for backup power to your home electrical system, ensure that it is properly installed by a licensed electrician. Improper wiring can cause fires or other hazards.
-4. **Regular Maintenance:** Regularly check and maintain your generator according to the manufacturer’s recommendations. Clean spark plugs, change oil, and replace filters as needed.
+4. **Regular Maintenance:** Regularly check and maintain your generator according to the manufacturerâ€™s recommendations. Clean spark plugs, change oil, and replace filters as needed.
 
 ## Using Generators with Solar Backup Systems
 
@@ -62,7 +62,7 @@ For those looking for more sustainable solutions, solar backup systems offer a c
 
 ## Conclusion
 
-Using a generator as part of your home's backup power system is a wise decision, but it’s essential to prioritize safety. By understanding how carbon monoxide forms, following proper usage guidelines, and taking precautions, you can enjoy reliable backup power without risking your health or well-being.
+Using a generator as part of your home's backup power system is a wise decision, but itâ€™s essential to prioritize safety. By understanding how carbon monoxide forms, following proper usage guidelines, and taking precautions, you can enjoy reliable backup power without risking your health or well-being.
 
 Stay informed and prepared with the right knowledge, ensuring that your family remains safe during any power outage. Always remember, when in doubt, seek professional advice to guarantee the safest possible setup for your home's backup power needs.
 

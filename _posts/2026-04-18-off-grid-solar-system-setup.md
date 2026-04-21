@@ -2,18 +2,18 @@
 layout: single
 title: "How to Set Up an Off-Grid Solar System for Home Backup Power"
 date: 2026-04-18
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Discover the steps to set up your own off-grid solar system and ensure reliable backup power at home."
 ---
 
 # How to Set Up an Off-Grid Solar System for Home Backup Power
 
-In today’s world, having a reliable backup power source is crucial. An off-grid solar system can provide just that, offering clean energy while reducing reliance on the traditional electrical grid. This article will guide you through setting up your own off-grid solar system, ensuring you have peace of mind during power outages.
+In todayâ€™s world, having a reliable backup power source is crucial. An off-grid solar system can provide just that, offering clean energy while reducing reliance on the traditional electrical grid. This article will guide you through setting up your own off-grid solar system, ensuring you have peace of mind during power outages.
 
 ## Understanding Off-Grid Solar Systems
 
-Before diving into the setup process, it’s important to understand what an off-grid solar system is and how it works. An off-grid solar system generates electricity from sunlight using photovoltaic (PV) panels and stores this energy in batteries for use when needed. Unlike a grid-tied system, which feeds excess power back into the main electrical grid, an off-grid system operates independently.
+Before diving into the setup process, itâ€™s important to understand what an off-grid solar system is and how it works. An off-grid solar system generates electricity from sunlight using photovoltaic (PV) panels and stores this energy in batteries for use when needed. Unlike a grid-tied system, which feeds excess power back into the main electrical grid, an off-grid system operates independently.
 
 ## Components of an Off-Grid Solar System
 
@@ -48,7 +48,7 @@ After setting up the battery bank and charge controller, connect an inverter to 
 
 ### 6. Install a Backup Battery Monitor
 
-Using a monitoring system will help you keep track of your battery’s state of charge, ensuring it stays healthy and provides reliable backup power.
+Using a monitoring system will help you keep track of your batteryâ€™s state of charge, ensuring it stays healthy and provides reliable backup power.
 
 ### 7. Grounding and Safety Checks
 

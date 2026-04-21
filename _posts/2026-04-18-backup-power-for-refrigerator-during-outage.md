@@ -2,7 +2,7 @@
 layout: single
 title: "Backup Power for Refrigerator During Outage"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Learn how to keep your refrigerator running during power outages with reliable backup power solutions."
 ---
@@ -54,7 +54,7 @@ Battery backup systems are designed specifically for critical appliances like re
 Choosing the right backup power solution depends on several factors including the duration and frequency of power outages in your area, the size of your refrigerator, and your budget. Here are some tips to help you make an informed decision:
 
 ### 1. Assess Your Needs
-Determine how long you need power for your refrigerator during a typical outage. If it’s just a few hours, a portable generator or battery backup might suffice. For longer outages, consider whole-house generators or solar systems.
+Determine how long you need power for your refrigerator during a typical outage. If itâ€™s just a few hours, a portable generator or battery backup might suffice. For longer outages, consider whole-house generators or solar systems.
 
 ### 2. Consider the Size of Your Refrigerator
 Different models have varying power requirements. Smaller refrigerators typically require less power than larger ones. Ensure that your chosen backup system can handle the load without overloading its capacity.

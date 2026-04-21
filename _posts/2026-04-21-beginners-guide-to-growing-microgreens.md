@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "Beginner’s Guide to Growing Microgreens"
+title: "Beginnerâ€™s Guide to Growing Microgreens"
 date: 2026-04-21
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image: "https://images.pexels.com/photos/12960364/pexels-photo-12960364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image_thumb: "https://images.pexels.com/photos/12960364/pexels-photo-12960364.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -12,7 +12,7 @@ excerpt: "Discover how to grow your own microgreens at home, even during power o
 
 ## Introduction
 
-Growing microgreens is a fun and rewarding hobby that can provide you with fresh, nutritious produce right from your kitchen counter. However, if you are new to this gardening technique, it might seem a bit daunting. In this beginner’s guide, we will walk you through the basics of growing microgreens at home, even during power outages.
+Growing microgreens is a fun and rewarding hobby that can provide you with fresh, nutritious produce right from your kitchen counter. However, if you are new to this gardening technique, it might seem a bit daunting. In this beginnerâ€™s guide, we will walk you through the basics of growing microgreens at home, even during power outages.
 
 ## What Are Microgreens?
 
@@ -26,7 +26,7 @@ Microgreens contain up to 40 times more nutrients than their full-grown counterp
 
 ### Convenience and Space Efficiency
 
-Growing microgreens requires minimal space, making them perfect for small balconies or windowsills. Additionally, they grow quickly, so you don’t need to wait long before enjoying your harvest.
+Growing microgreens requires minimal space, making them perfect for small balconies or windowsills. Additionally, they grow quickly, so you donâ€™t need to wait long before enjoying your harvest.
 
 ## Getting Started: Tools and Supplies
 
@@ -40,7 +40,7 @@ A grow mat is an excellent tool for providing consistent light during power outa
 
 ### Microgreen Kit (Recommended)
 
-A microgreen kit provides everything you need to start growing microgreens, including seeds and trays. It’s the perfect way to get started without spending too much time or money on equipment.
+A microgreen kit provides everything you need to start growing microgreens, including seeds and trays. Itâ€™s the perfect way to get started without spending too much time or money on equipment.
 
 [Microgreen Growing Kit](https://www.amazon.com.au/s?k=microgreen+growing+kit&tag=owlno-22)
 
@@ -68,7 +68,7 @@ You can use a variety of containers such as seed trays, shallow planters, or eve
 
 5. **Light and Temperature**
    - Place your containers under grow lights or in a sunny window if available.
-   - Maintain a temperature between 60°F to 75°F (16°C to 24°C) for optimal growth.
+   - Maintain a temperature between 60Â°F to 75Â°F (16Â°C to 24Â°C) for optimal growth.
 
 6. **Harvesting Microgreens**
    - Once the plants have developed their first set of true leaves, you can begin harvesting.

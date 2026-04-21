@@ -2,7 +2,7 @@
 layout: single
 title: "Power Conditioning for Sensitive Electronics: Protecting Your Home Technology"
 date: 2026-04-20
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image_keyword: "electronics power conditioning"
 excerpt: "Learn how to protect your sensitive electronics from voltage fluctuations and surges with the right power conditioning solutions."

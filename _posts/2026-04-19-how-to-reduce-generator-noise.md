@@ -2,7 +2,7 @@
 layout: single
 title: "How to Reduce Generator Noise for Quieter Home Backup Power"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Learn effective strategies and product recommendations to minimize generator noise for a more peaceful backup power solution."
 ---

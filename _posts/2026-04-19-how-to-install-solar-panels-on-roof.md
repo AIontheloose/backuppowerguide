@@ -2,7 +2,7 @@
 layout: single
 title: "How to Install Solar Panels on Your Roof for Backup Power"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Learn how to install solar panels on your roof to harness the power of the sun and provide reliable backup energy for your home."
 ---
@@ -27,7 +27,7 @@ Solar panels need to be placed in an area that receives maximum sunlight. Ideall
 Inspect your roof for any damages such as leaks or structural issues. A well-maintained roof is essential to ensure a secure and long-lasting installation of solar panels.
 
 ### Step 3: Determine Roof Slope
-Most residential roofs have a slope between 15° and 40°, which is suitable for most solar panel installations. If your roof has an unusual slope or angle, consult with a professional installer to determine compatibility.
+Most residential roofs have a slope between 15Â° and 40Â°, which is suitable for most solar panel installations. If your roof has an unusual slope or angle, consult with a professional installer to determine compatibility.
 
 ## Choosing the Right Solar Panels
 
@@ -42,7 +42,7 @@ These panels are designed for optimal performance in various weather conditions,
 ## Installing the Solar Panel System
 
 ### Step 4: Connect with a Professional Installer
-While it’s possible to DIY install solar panels, it's often recommended to hire a professional. They will assess your roof and system requirements and ensure everything is installed safely and efficiently.
+While itâ€™s possible to DIY install solar panels, it's often recommended to hire a professional. They will assess your roof and system requirements and ensure everything is installed safely and efficiently.
 
 ### Step 5: Install Mounting Hardware
 Once you have the necessary equipment, mount the racks or frames onto the roof where the panels will be placed. This step requires careful measurement and alignment to maintain structural integrity and aesthetic appeal.
@@ -51,7 +51,7 @@ Once you have the necessary equipment, mount the racks or frames onto the roof w
 Attach each solar panel to its mounting hardware. Ensure they are securely fastened and aligned with the direction of sunlight for maximum efficiency.
 
 ### Step 7: Connect Inverters
-Solar panels generate direct current (DC) electricity, which needs to be converted to alternating current (AC) using an inverter. Install this component in your home’s electrical system.
+Solar panels generate direct current (DC) electricity, which needs to be converted to alternating current (AC) using an inverter. Install this component in your homeâ€™s electrical system.
 
 ### Step 8: Install Battery Storage
 For backup power, connect batteries that can store excess energy generated during the day for use at night or during outages.
@@ -65,7 +65,7 @@ A reliable battery system is crucial to ensure you have backup power when needed
 After installation, regular maintenance is key:
 - **Clean the Panels**: Periodically clean the panels to remove dust and debris.
 - **Check Connections**: Inspect connections for any signs of wear or damage.
-- **Monitor Performance**: Use a monitoring system to track your solar panel’s performance and efficiency.
+- **Monitor Performance**: Use a monitoring system to track your solar panelâ€™s performance and efficiency.
 
 ## Conclusion
 

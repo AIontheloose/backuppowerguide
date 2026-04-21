@@ -2,7 +2,7 @@
 layout: single
 title: "DIY Generator Enclosure: A Comprehensive Guide"
 date: 2026-04-21
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image: "https://images.pexels.com/photos/4656627/pexels-photo-4656627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image_thumb: "https://images.pexels.com/photos/4656627/pexels-photo-4656627.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"

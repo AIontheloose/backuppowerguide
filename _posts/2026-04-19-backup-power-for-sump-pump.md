@@ -2,7 +2,7 @@
 layout: single
 title: "Backup Power for Sump Pump: A Comprehensive Guide"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Learn about the critical role of backup power in protecting your sump pump from power outages and ensuring your home remains safe."
 ---

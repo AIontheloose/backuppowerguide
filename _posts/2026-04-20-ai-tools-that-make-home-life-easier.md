@@ -2,7 +2,7 @@
 layout: single
 title: "AI Tools Making Your Home Life Easier"
 date: 2026-04-20
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image: "https://images.pexels.com/photos/4790255/pexels-photo-4790255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image_thumb: "https://images.pexels.com/photos/4790255/pexels-photo-4790255.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -29,7 +29,7 @@ Smart thermostats like Nest Learning Thermostat can significantly reduce energy 
 ## Energy Management Systems
 
 ### Home Energy Monitors
-Home energy monitors like the Sense Home Energy Monitor can provide detailed insights into your home’s electricity usage. By tracking power consumption, these devices help you identify areas where energy is being wasted and suggest ways to optimize it. This can be particularly useful for those looking to reduce their carbon footprint or save money on energy bills.
+Home energy monitors like the Sense Home Energy Monitor can provide detailed insights into your homeâ€™s electricity usage. By tracking power consumption, these devices help you identify areas where energy is being wasted and suggest ways to optimize it. This can be particularly useful for those looking to reduce their carbon footprint or save money on energy bills.
 
 [Sense Home Energy Monitor](https://www.amazon.com.au/s?k=sense+home+energy+monitor&tag=owlno-22)
 

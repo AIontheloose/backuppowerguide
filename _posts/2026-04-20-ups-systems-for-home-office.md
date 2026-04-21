@@ -2,7 +2,7 @@
 layout: single
 title: "UPS Systems for Home Office: Ensuring Uninterrupted Work"
 date: 2026-04-20
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image_keyword: "UPS power supply office"
 excerpt: "Discover the best UPS systems to keep your home office running smoothly during power outages."
@@ -25,7 +25,7 @@ A UPS system acts as a buffer between your home office equipment and the electri
 ## Types of UPS Systems for Home Office
 
 ### Standby UPS
-A standby UPS turns on its battery backup only when there's an interruption in the power supply. It’s a cost-effective solution and ideal for small to medium-sized home offices with basic equipment like computers and printers.
+A standby UPS turns on its battery backup only when there's an interruption in the power supply. Itâ€™s a cost-effective solution and ideal for small to medium-sized home offices with basic equipment like computers and printers.
 
 ### Line-Interactive UPS
 Line-interactive systems manage voltage fluctuations more efficiently than standby models, providing continuous protection against minor power disturbances while also offering battery backup during major outages.

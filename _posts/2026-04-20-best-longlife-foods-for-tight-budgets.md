@@ -2,7 +2,7 @@
 layout: single
 title: "Best Longevity Foods for Tight Budgets"
 date: 2026-04-20
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image: "https://images.pexels.com/photos/4778355/pexels-photo-4778355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image_thumb: "https://images.pexels.com/photos/4778355/pexels-photo-4778355.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -17,7 +17,7 @@ When the power goes out, having a well-stocked pantry can make all the differenc
 ## The Best Long-Life Foods for Tight Budgets
 
 ### 1. Canned Goods
-Canned goods like beans, tuna, and vegetables are not only cheap but also have a long shelf life—sometimes up to two years or more if stored properly. These foods provide essential nutrients and can be easily incorporated into meals.
+Canned goods like beans, tuna, and vegetables are not only cheap but also have a long shelf lifeâ€”sometimes up to two years or more if stored properly. These foods provide essential nutrients and can be easily incorporated into meals.
 
 * **Canned Tuna** - A versatile protein source that's easy to prepare.
 [15-oz Tuna in Water](https://www.amazon.com.au/s?k=15-oz+tuna+in+water&tag=owlno-22)

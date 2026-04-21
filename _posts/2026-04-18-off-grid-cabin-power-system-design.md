@@ -2,8 +2,8 @@
 layout: single
 title: "Designing Your Off-Grid Cabin Power System"
 date: 2026-04-19
-categories: [backup-power]
-tags: [off-grid, cabin power, solar panels, battery storage, generator backup]
+categories: [energy-power]
+tags: [backup-power,off-grid, cabin power, solar panels, battery storage, generator backup]
 excerpt: "Explore the essential components and design considerations for creating a reliable off-grid cabin power system that keeps your home comfortable and energy-efficient."
 ---
 

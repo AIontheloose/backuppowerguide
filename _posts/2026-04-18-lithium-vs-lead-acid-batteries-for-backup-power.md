@@ -2,7 +2,7 @@
 layout: single
 title: "Lithium vs Lead Acid Batteries for Backup Power"
 date: 2026-04-18
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Explore the differences between lithium and lead acid batteries in terms of performance, cost, maintenance, and environmental impact for your home backup power needs."
 ---
@@ -13,7 +13,7 @@ Backup power is crucial for maintaining a comfortable and secure environment dur
 
 ## Introduction
 
-In today’s world, reliable backup power systems are increasingly important as natural disasters and extreme weather events become more frequent. Two common technologies used for home backup power systems are lithium-ion and lead acid batteries. Both have their advantages and disadvantages, making it crucial to evaluate them based on your specific needs.
+In todayâ€™s world, reliable backup power systems are increasingly important as natural disasters and extreme weather events become more frequent. Two common technologies used for home backup power systems are lithium-ion and lead acid batteries. Both have their advantages and disadvantages, making it crucial to evaluate them based on your specific needs.
 
 ## Performance: Capacity and Efficiency
 
@@ -41,7 +41,7 @@ Lithium-ion batteries tend to be more expensive than lead acid batteries at the 
 
 ### Maintenance Costs
 
-- **Lithium-Ion:** Lithium-ion batteries generally require less maintenance. There’s no need for regular water top-ups or equalization charges as with lead acid batteries.
+- **Lithium-Ion:** Lithium-ion batteries generally require less maintenance. Thereâ€™s no need for regular water top-ups or equalization charges as with lead acid batteries.
   
 - **Lead Acid:** Lead acid batteries often require more frequent attention, including cleaning, monitoring electrolyte levels, and periodic equalization to prevent sulfation.
 

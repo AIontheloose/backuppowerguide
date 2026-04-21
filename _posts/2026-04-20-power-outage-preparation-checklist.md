@@ -2,7 +2,7 @@
 layout: single
 title: "Comprehensive Power Outage Preparation Checklist for Your Home"
 date: 2026-04-20
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image: "https://images.pexels.com/photos/27914795/pexels-photo-27914795.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image_thumb: "https://images.pexels.com/photos/27914795/pexels-photo-27914795.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -16,15 +16,15 @@ Living in an area prone to frequent power outages can be a real inconvenience. W
 
 ## Understanding the Importance of Backup Power
 
-Before diving into your preparation checklist, it’s important to understand why backup power is essential. A reliable source of electricity can help keep your home functioning as usual during outages and prevent damage to sensitive electronic devices. It's also crucial for maintaining safety and comfort in case of prolonged interruptions.
+Before diving into your preparation checklist, itâ€™s important to understand why backup power is essential. A reliable source of electricity can help keep your home functioning as usual during outages and prevent damage to sensitive electronic devices. It's also crucial for maintaining safety and comfort in case of prolonged interruptions.
 
 ## The Ultimate Power Outage Preparation Checklist
 
-### 1. Assess Your Home’s Vulnerability
+### 1. Assess Your Homeâ€™s Vulnerability
 Start by evaluating the areas most likely to be affected by a power outage. Are there critical systems you need to keep running, such as medical equipment or security systems? Make note of these and prioritize them in your plan.
 
 ### 2. Install Backup Power Solutions
-Consider different backup options based on your home’s needs:
+Consider different backup options based on your homeâ€™s needs:
 
 - **Generators:** Portable generators are great for short-term use but can be noisy and require regular maintenance.
   - [Portable Generator](https://www.amazon.com.au/s?k=portable+generator&tag=owlno-22)
@@ -46,7 +46,7 @@ Prepare a kit with items you might need during an outage:
 
 - **Flashlights and Batteries:** Always have extra flashlights at the ready.
 - **Candles and Matches:** For lighting in case of a power failure.
-- **First Aid Kit:** Ensure you’re prepared for any minor injuries that may occur.
+- **First Aid Kit:** Ensure youâ€™re prepared for any minor injuries that may occur.
 - **Non-Prescription Medications:** Keep necessary medicines on hand.
 
 ### 5. Plan for Communication
@@ -65,7 +65,7 @@ In the event that you need to leave your home, have a clear plan in place:
 - **Important Documents:** Scan and store important documents digitally or in a waterproof container.
 
 ### 7. Test Your Backup Power System
-Regularly check your backup system to ensure it’s working properly:
+Regularly check your backup system to ensure itâ€™s working properly:
 
 - **Generator Maintenance:** Run your generator periodically to test its functionality.
 - **Solar Panel Inspection:** Check for any damage or wear on solar panels.

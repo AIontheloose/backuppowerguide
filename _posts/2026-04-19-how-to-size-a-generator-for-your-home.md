@@ -2,7 +2,7 @@
 layout: single
 title: "How to Size a Generator for Your Home"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image_keyword: "generator sizing home power"
 excerpt: "Learn the steps and considerations needed to size a generator properly for your home's backup power needs."
@@ -10,7 +10,7 @@ excerpt: "Learn the steps and considerations needed to size a generator properly
 
 # How to Size a Generator for Your Home
 
-Backup power is essential during unexpected outages. Properly sizing a generator can ensure that it meets all your critical electrical needs while also being cost-effective. This guide will walk you through the process of determining the right size for your home’s backup generator.
+Backup power is essential during unexpected outages. Properly sizing a generator can ensure that it meets all your critical electrical needs while also being cost-effective. This guide will walk you through the process of determining the right size for your homeâ€™s backup generator.
 
 ## Understanding Your Electrical Needs
 

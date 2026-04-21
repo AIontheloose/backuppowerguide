@@ -2,7 +2,7 @@
 layout: single
 title: "Essential Generator Maintenance Tips for Home Backup Power"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Learn how to keep your generator running smoothly and reliably with these essential maintenance tips."
 ---

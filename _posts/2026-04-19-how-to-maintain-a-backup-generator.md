@@ -2,7 +2,7 @@
 layout: single
 title: "How to Maintain a Backup Generator for Reliability"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image_keyword: "generator engine maintenance oil"
 excerpt: "Learn the essential steps and tips to keep your backup generator running smoothly during power outages."
@@ -24,7 +24,7 @@ Start by performing a monthly inspection of your generator. This involves checki
 
 - **Fuel Level**: Ensure that there is enough fuel for operation.
 - **Coolant and Oil Levels**: Check the coolant level in liquid-cooled models, as well as the oil levels to prevent overheating.
-- **Battery Condition**: Test the battery’s charge to ensure it can start the generator reliably.
+- **Battery Condition**: Test the batteryâ€™s charge to ensure it can start the generator reliably.
 - **Exhaust and Emissions**: Inspect exhaust hoses and mufflers for any signs of wear or damage. Address any leaks promptly.
 
 #### 2. **Annual Maintenance**
@@ -45,7 +45,7 @@ To make the maintenance process easier and more effective, consider investing in
 
 - **[Generator Oil](https://www.amazon.com.au/s?k=generator+oil&tag=owlno-22)**: Ensure that your generator has the right type of oil to keep it running smoothly. This is especially important for older models or those operating in harsh conditions.
   
-- **[Fuel Stabilizer](https://www.amazon.com.au/s?k=fuel+stabilizer+for+generators&tag=owlno-22)**: Adding a fuel stabilizer to your generator’s fuel can extend the life of stored gasoline, ensuring that you always have reliable fuel on hand.
+- **[Fuel Stabilizer](https://www.amazon.com.au/s?k=fuel+stabilizer+for+generators&tag=owlno-22)**: Adding a fuel stabilizer to your generatorâ€™s fuel can extend the life of stored gasoline, ensuring that you always have reliable fuel on hand.
 
 ### Conclusion
 

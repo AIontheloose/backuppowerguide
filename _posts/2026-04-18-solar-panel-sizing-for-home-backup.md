@@ -2,7 +2,7 @@
 layout: single
 title: "Sizing Solar Panels for Home Backup Power: A Comprehensive Guide"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Discover how to properly size your solar panels for reliable backup power in this detailed guide."
 ---

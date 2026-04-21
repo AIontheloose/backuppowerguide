@@ -2,7 +2,7 @@
 layout: single
 title: "How to Keep Food Cold During a Power Outage"
 date: 2026-04-20
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image_keyword: "food storage ice cooler"
 excerpt: "Learn effective strategies and reliable backup solutions for keeping your food cold during power outages."
@@ -45,8 +45,8 @@ Insulating your refrigerator can help it maintain its temperature longer during 
 ## Practical Tips for Managing Food During Outages
 
 - **Prioritize Essential Items:** Keep essential items like milk, meat, and medications cold first.
-- **Refrigerate Perishables Promptly:** If you’re expecting an outage, move perishable foods to the freezer or cooler as soon as possible.
-- **Monitor Temperature:** Use a digital thermometer to check the temperature inside your refrigerator and freezer. Aim for 40°F (4°C) in the fridge and 0°F (-18°C) in the freezer.
+- **Refrigerate Perishables Promptly:** If youâ€™re expecting an outage, move perishable foods to the freezer or cooler as soon as possible.
+- **Monitor Temperature:** Use a digital thermometer to check the temperature inside your refrigerator and freezer. Aim for 40Â°F (4Â°C) in the fridge and 0Â°F (-18Â°C) in the freezer.
 
 ## Conclusion
 

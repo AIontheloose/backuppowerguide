@@ -2,7 +2,7 @@
 layout: single
 title: "How Much Does a Whole House Generator Cost? A Comprehensive Guide"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Discover the average costs of whole house generators and explore your options with product recommendations from top brands."
 ---
@@ -26,7 +26,7 @@ The cost of a whole house generator can vary widely based on several factors:
 
 ## Average Cost of a Whole House Generator
 
-The average cost of a whole house generator ranges from $3,000 to $15,000 or more. Here’s a breakdown:
+The average cost of a whole house generator ranges from $3,000 to $15,000 or more. Hereâ€™s a breakdown:
 
 ### Entry-Level Generators
 Entry-level models with basic features and capacities suitable for smaller homes can start around $3,000.

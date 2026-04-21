@@ -2,7 +2,7 @@
 layout: single
 title: "Ensure Your Home Security System Stays Online with Backup Power"
 date: 2026-04-18
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Learn how to keep your home security system operational during power outages by choosing the right backup power solution."
 ---
@@ -22,7 +22,7 @@ Power outages can be caused by various factors such as storms, hurricanes, natur
 ## Types of Backup Power Solutions
 
 ### Generators
-Generators are one of the most popular backup power solutions for home security systems. They come in different sizes and types—portable, standby, or whole-house generators. Standby generators are typically installed permanently outside the house and automatically start during a power outage to provide uninterrupted power.
+Generators are one of the most popular backup power solutions for home security systems. They come in different sizes and typesâ€”portable, standby, or whole-house generators. Standby generators are typically installed permanently outside the house and automatically start during a power outage to provide uninterrupted power.
 
 #### Benefits:
 - **Reliability**: Provides consistent power that can handle heavy loads.

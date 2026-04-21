@@ -2,7 +2,7 @@
 layout: single
 title: "How to Connect Solar Panels in Series vs Parallel"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Learn how to connect solar panels in series and parallel configurations for maximum efficiency in your home backup power system."
 ---

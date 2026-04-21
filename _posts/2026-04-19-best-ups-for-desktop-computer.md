@@ -2,7 +2,7 @@
 layout: single
 title: "Best UPS for Desktop Computer: A Comprehensive Guide"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, desktop-computer, uninterruptible-power-supply, computer-backup]
 excerpt: "Discover the best UPS systems for your desktop computer to ensure uninterrupted power and protect your valuable data."
 ---
@@ -38,7 +38,7 @@ The APC Smart-UPS 650VA is a reliable choice for home offices. It offers 650VA o
 
 [View Tripp Lite BE300 on Amazon](https://www.amazon.com.au/s?k=tripp+lite+be300&tag=owlno-22)
 
-Tripp Lite’s BE300 UPS is a popular option for small to medium-sized computers. It provides 300VA of output and can offer up to 4 hours of runtime, which is sufficient for most home office needs.
+Tripp Liteâ€™s BE300 UPS is a popular option for small to medium-sized computers. It provides 300VA of output and can offer up to 4 hours of runtime, which is sufficient for most home office needs.
 
 ### 3. CyberPower CP1500AVRLT
 

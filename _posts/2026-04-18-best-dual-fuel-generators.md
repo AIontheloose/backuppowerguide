@@ -2,7 +2,7 @@
 layout: single
 title: "Best Dual Fuel Generators for Home Backup Power"
 date: 2026-04-18
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, dual-fuel, home-energy]
 excerpt: "Discover the top dual fuel generators that offer reliable backup power with a combination of natural gas and propane."
 ---
@@ -13,7 +13,7 @@ If you're looking to secure reliable backup power for your home in case of outag
 
 ## What Are Dual Fuel Generators?
 
-Dual fuel generators are designed to switch between two types of fuels—typically natural gas and propane—to ensure consistent operation regardless of the availability or cost fluctuations of one type of fuel. This makes them particularly suitable for homeowners who want a backup power solution that is not only reliable but also flexible.
+Dual fuel generators are designed to switch between two types of fuelsâ€”typically natural gas and propaneâ€”to ensure consistent operation regardless of the availability or cost fluctuations of one type of fuel. This makes them particularly suitable for homeowners who want a backup power solution that is not only reliable but also flexible.
 
 ## Why Choose Dual Fuel Generators?
 
@@ -81,7 +81,7 @@ Evaluate your home's power needs to determine the appropriate generator size. Ma
 Consider which fuel is more readily available in your area. Natural gas is typically more common in suburban areas, while propane might be preferred in rural settings.
 
 ### 3. **Installation and Maintenance**
-Ensure the generator can be installed easily based on your home’s infrastructure. Additionally, consider any maintenance requirements to ensure longevity.
+Ensure the generator can be installed easily based on your homeâ€™s infrastructure. Additionally, consider any maintenance requirements to ensure longevity.
 
 ## Conclusion
 

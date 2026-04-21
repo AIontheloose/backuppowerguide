@@ -2,7 +2,7 @@
 layout: single
 title: "Automatic Standby Generators: Reviews & Recommendations for Your Home"
 date: 2026-04-19
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 excerpt: "Explore top automatic standby generator reviews and find the perfect fit for your home's backup power needs."
 ---
@@ -16,7 +16,7 @@ Automatic standby generators are designed to be installed permanently outside yo
 ### Key Features to Consider
 
 - **Automatic Start**: Look for generators that can start automatically upon detecting a power outage.
-- **Output Capacity**: Ensure the generator's output capacity matches your home’s energy requirements.
+- **Output Capacity**: Ensure the generator's output capacity matches your homeâ€™s energy requirements.
 - **Fuel Type**: Diesel and natural gas are common fuel types; consider which is more convenient or cost-effective in your area.
 - **Noise Level**: Lower noise levels are preferable, especially if you live in an urban environment.
 - **Maintenance Requirements**: Generators with fewer moving parts require less maintenance.

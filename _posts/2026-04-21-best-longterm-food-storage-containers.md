@@ -2,7 +2,7 @@
 layout: single
 title: "Best Long-Term Food Storage Containers for Your Backup Power Needs"
 date: 2026-04-21
-categories: [backup-power]
+categories: [energy-power]
 tags: [backup-power, generators, solar, home-energy]
 image: "https://images.pexels.com/photos/5237886/pexels-photo-5237886.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image_thumb: "https://images.pexels.com/photos/5237886/pexels-photo-5237886.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -30,7 +30,7 @@ The Oxoid Vacuum Sealer Machine is an excellent choice for preserving the freshn
 
 ### 2. [Weston Heavy-Duty Food Storage Container](https://www.amazon.com.au/s?k=weston+heavy-duty+food+storage+container&tag=owlno-22)
 
-With its thick walls and airtight seal, the Weston Heavy-Duty Food Storage Container is ideal for long-term food storage. These containers can withstand temperatures ranging from -40°C to 125°C, making them suitable for various emergency situations.
+With its thick walls and airtight seal, the Weston Heavy-Duty Food Storage Container is ideal for long-term food storage. These containers can withstand temperatures ranging from -40Â°C to 125Â°C, making them suitable for various emergency situations.
 
 ### 3. [Mylar Bags with Oxygen Absorbers](https://www.amazon.com.au/s?k=mylar+bags+with+oxygen+absorbers&tag=owlno-22)
 
@@ -50,4 +50,4 @@ Proper long-term food storage is essential when preparing for emergencies. Wheth
 
 ---
 
-By integrating these storage solutions with your backup power system, you’ll be better prepared for any situation where power is unavailable. Stay safe and well-stocked!
+By integrating these storage solutions with your backup power system, youâ€™ll be better prepared for any situation where power is unavailable. Stay safe and well-stocked!
