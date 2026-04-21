@@ -1,8 +1,8 @@
 title: OWLNO
 email:
 description: Your trusted resource for home backup power, generators, solar systems, and off-grid energy solutions.
-url: "https://aiontheloose.github.io"
-baseurl: "/backuppowerguide"
+url: "https://www.owlno.com"
+baseurl: ""
 future: true
 
 plugins:
