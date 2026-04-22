@@ -1,68 +1,38 @@
 ---
 layout: default
 ---
-
 <div class="category-page-wrap">
-
   <div class="category-page-header">
-    <div class="breadcrumb">
-      <a href="/">Home</a> &rsaquo;
-      <a href="/{{ page.category }}/">{{ page.category | replace: "-", " " | capitalize }}</a> &rsaquo;
-      {{ page.title }}
-    </div>
+    <div class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/{{ page.category }}/">{{ page.category | replace:"-"," " | capitalize }}</a> &rsaquo; {{ page.title }}</div>
     <h1 class="category-page-title">{{ page.title }}</h1>
-    {% if page.description %}
-    <p class="category-page-desc">{{ page.description }}</p>
-    {% endif %}
+    {% if page.description %}<p class="category-page-desc">{{ page.description }}</p>{% endif %}
   </div>
-
   <div class="content-wrap">
     <div class="main-content">
-      {% assign sub_posts = site.posts | where_exp: "post", "post.categories contains page.category" %}
+      {% assign sub_posts = site.posts | where_exp:"post","post.categories contains page.category" %}
       {% if sub_posts.size > 0 %}
-      <div class="section-header">
-        <span class="section-title">{{ sub_posts.size }} Articles</span>
-        <span class="section-line"></span>
-      </div>
+      <div class="section-header"><span class="section-title">{{ sub_posts.size }} Articles</span><span class="section-line"></span></div>
       <div class="articles-grid">
         {% for post in sub_posts %}
-        {% assign fallback_thumb = "https://picsum.photos/seed/" | append: forloop.index | append: "0/400/250" %}
-        {% assign thumb_img = post.image_thumb | default: fallback_thumb %}
+        {% assign ft = "https://picsum.photos/seed/" | append: forloop.index | append: "0/400/250" %}
+        {% assign ti = post.image_thumb | default: ft %}
         <article class="article-card">
-          <a href="{{ post.url | relative_url }}" class="article-thumb" style="background-image: url('{{ thumb_img }}')"></a>
+          <a href="{{ post.url | relative_url }}" class="article-thumb" style="background-image:url('{{ ti }}')"></a>
           <div class="article-card-body">
             <h3 class="article-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
             <p class="article-excerpt">{{ post.excerpt | strip_html | truncate: 100 }}</p>
-            <span class="article-meta">{{ post.date | date: "%b %-d, %Y" }} &bull; {{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+            <span class="article-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
           </div>
         </article>
         {% endfor %}
       </div>
       {% else %}
-      <div class="no-posts">
-        <p>Articles coming soon. Check back shortly!</p>
-      </div>
+      <div class="no-posts"><p>Articles coming soon. <a href="/">Return home</a></p></div>
       {% endif %}
     </div>
-
     <aside class="sidebar">
-      <div class="sidebar-widget newsletter-widget">
-        <h3>Get Weekly Guides</h3>
-        <p>Free expert guides delivered to your inbox every week.</p>
-        <form action="#" method="post">
-          <input type="email" name="email" placeholder="Enter your email">
-          <button type="submit">Subscribe Free</button>
-        </form>
-      </div>
-      <div class="sidebar-widget popular-widget">
-        <h3>Most Popular</h3>
-        <ul class="popular-list">
-          {% for post in site.posts limit: 8 %}
-          <li><a href="{{ post.url | relative_url }}">{{ post.title | truncate: 60 }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
+      <div class="sidebar-widget newsletter-widget"><h3>Get Weekly Guides</h3><p>Free expert guides to your inbox.</p><form onsubmit="this.innerHTML='<p style=color:green>Subscribed!</p>';return false;"><input type="email" placeholder="Enter your email" required><button type="submit">Subscribe Free</button></form></div>
+      <div class="sidebar-widget popular-widget"><h3>Most Popular</h3><ul class="popular-list">{% for post in site.posts limit: 8 %}<li><a href="{{ post.url | relative_url }}">{{ post.title | truncate: 60 }}</a></li>{% endfor %}</ul></div>
     </aside>
   </div>
-
 </div>

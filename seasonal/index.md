@@ -2,5 +2,5 @@
 layout: category
 title: "Seasonal"
 category: seasonal
-description: "Christmas gift guides, summer tips, winter maintenance, Easter activities, and school holiday ideas."
+description: "Seasonal guides for Christmas, summer, winter, Easter, and school holidays."
 ---
