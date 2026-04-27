@@ -271,3 +271,20 @@ img { max-width: 100%; height: auto; display: block; }
   .page-content { padding: 24px; }
   .error-404 h1 { font-size: 80px; }
 }
+
+/* ===== HOMEPAGE CATEGORY GRID (4 col) ===== */
+.category-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 40px;
+}
+.article-thumb-sm { height: 140px; }
+.article-title-sm { font-size: 14px; }
+
+@media (max-width: 1024px) {
+  .category-grid-4 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 768px) {
+  .category-grid-4 { grid-template-columns: 1fr; }
+}
