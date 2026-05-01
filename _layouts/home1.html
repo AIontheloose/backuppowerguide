@@ -1,0 +1,127 @@
+---
+layout: default
+---
+<div class="home-wrap">
+
+  <!-- CAROUSEL: 8 latest articles -->
+  <section class="hero-carousel">
+    <div class="carousel-track" id="carouselTrack">
+      {% for post in site.posts limit: 8 %}
+      {% assign fi = "https://picsum.photos/seed/" | append: forloop.index | append: "/1400/600" %}
+      {% assign hi = post.image | default: fi %}
+      <div class="carousel-slide" style="background-image:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.72)),url('{{ hi }}')">
+        <div class="carousel-content">
+          <span class="hero-category">{{ post.categories | first | replace:"-"," " | upcase }}</span>
+          <h2 class="hero-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <p class="hero-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+          <span class="hero-meta">{{ post.date | date: "%B %-d, %Y" }} &bull; {{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <button class="carousel-btn prev" onclick="moveCarousel(-1)">&#10094;</button>
+    <button class="carousel-btn next" onclick="moveCarousel(1)">&#10095;</button>
+    <div class="carousel-dots" id="carouselDots"></div>
+  </section>
+
+  <div class="content-wrap">
+    <div class="main-content">
+
+      <!-- LATEST: 16 most recent articles -->
+      <section class="articles-section">
+        <div class="section-header">
+          <h2 class="section-title">Latest Guides</h2>
+          <span class="section-line"></span>
+        </div>
+        <div class="articles-grid">
+          {% for post in site.posts limit: 16 %}
+          {% assign ft = "https://picsum.photos/seed/" | append: forloop.index | append: "/400/250" %}
+          {% assign ti = post.image_thumb | default: ft %}
+          <article class="article-card">
+            <a href="{{ post.url | relative_url }}" class="article-thumb" style="background-image:url('{{ ti }}')"></a>
+            <div class="article-card-body">
+              <span class="article-category">{{ post.categories | first | replace:"-"," " }}</span>
+              <h3 class="article-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              <p class="article-excerpt">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+              <span class="article-meta">{{ post.date | date: "%b %-d, %Y" }} &bull; {{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- 8 ARTICLES PER CATEGORY -->
+      {% assign all_cats = "energy-power,home-garden,finance,technology,health,automotive,outdoors-camping,seasonal" | split: "," %}
+      {% assign cat_titles = "Energy & Power,Home & Garden,Finance,Technology,Health,Automotive,Outdoors & Camping,Seasonal" | split: "," %}
+
+      {% for cat in all_cats %}
+      {% assign cat_posts = site.posts | where_exp:"post","post.categories contains cat" | limit: 8 %}
+      {% if cat_posts.size > 0 %}
+      {% assign cat_index = forloop.index0 %}
+      <section class="category-section">
+        <div class="section-header">
+          <h2 class="section-title">{{ cat_titles[cat_index] }}</h2>
+          <span class="section-line"></span>
+          <a href="/{{ cat }}/" class="section-more">See all &rarr;</a>
+        </div>
+        <div class="category-grid-4">
+          {% for post in cat_posts %}
+          {% assign ft2 = "https://picsum.photos/seed/" | append: forloop.index | append: "cat/400/250" %}
+          {% assign ti2 = post.image_thumb | default: ft2 %}
+          <article class="article-card">
+            <a href="{{ post.url | relative_url }}" class="article-thumb article-thumb-sm" style="background-image:url('{{ ti2 }}')"></a>
+            <div class="article-card-body">
+              <h3 class="article-title article-title-sm"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              <span class="article-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+      {% endfor %}
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-widget newsletter-widget">
+        <h3>Get Weekly Guides</h3>
+        <p>Free expert guides to your inbox every week.</p>
+        <form onsubmit="this.innerHTML='<p style=color:green;font-weight:600>&#10003; Subscribed!</p>';return false;">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe Free</button>
+        </form>
+      </div>
+
+      <div class="sidebar-widget popular-widget">
+        <h3>Most Popular</h3>
+        <ul class="popular-list">
+          {% for post in site.posts limit: 10 %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title | truncate: 55 }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="sidebar-widget">
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7933433521355116" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+      </div>
+
+      <div class="sidebar-widget">
+        <h3>Browse Categories</h3>
+        <ul class="popular-list">
+          <li><a href="/energy-power/">&#9889; Energy &amp; Power</a></li>
+          <li><a href="/home-garden/">&#127968; Home &amp; Garden</a></li>
+          <li><a href="/finance/">&#128181; Finance</a></li>
+          <li><a href="/technology/">&#128187; Technology</a></li>
+          <li><a href="/health/">&#128153; Health</a></li>
+          <li><a href="/automotive/">&#128663; Automotive</a></li>
+          <li><a href="/outdoors-camping/">&#9968; Outdoors &amp; Camping</a></li>
+          <li><a href="/seasonal/">&#127878; Seasonal</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+</div>
