@@ -47,13 +47,14 @@ layout: default
       </div>
     </article>
 
-    <!-- RELATED ARTICLES: same subcategory/tags, max 4, 2x2 grid -->
+    <!-- RELATED ARTICLES -->
     {% assign page_sub = page.subcategory %}
     {% assign page_cat = page.categories | first %}
+
     {% if page_sub %}
-      {% assign related = site.posts | where:"subcategory", page_sub | where_exp:"p","p.url != page.url" | limit: 4 %}
+      {% assign related = site.posts | where:"subcategory", page_sub | where_exp:"p","p.url != page.url" %}
     {% else %}
-      {% assign related = site.posts | where_exp:"p","p.categories contains page_cat and p.url != page.url" | limit: 4 %}
+      {% assign related = site.posts | where_exp:"p","p.categories contains page_cat and p.url != page.url" %}
     {% endif %}
 
     {% if related.size > 0 %}
@@ -64,7 +65,7 @@ layout: default
         <a href="/{{ page_cat }}/" class="section-more">See all &rarr;</a>
       </div>
       <div class="related-grid">
-        {% for post in related %}
+        {% for post in related limit:4 %}
         {% assign rf = "https://picsum.photos/seed/r{{ forloop.index }}/400/250" %}
         {% assign rt = post.image_thumb | default: rf %}
         <article class="article-card">
@@ -79,7 +80,7 @@ layout: default
     </section>
     {% endif %}
 
-    <!-- YOU MAY ALSO LIKE: 8 articles, 4x2 grid, personalised via JS -->
+    <!-- YOU MAY ALSO LIKE -->
     <section class="recommended-posts">
       <div class="section-header">
         <h3 class="section-title">Articles You May Like</h3>
@@ -87,25 +88,38 @@ layout: default
         <a href="/" class="section-more">See all &rarr;</a>
       </div>
       <div class="category-grid-4" id="recommendedGrid">
-        <!-- Filled by JS based on browsing history -->
-        {% assign rec_posts = site.posts | where_exp:"p","p.url != page.url" | limit: 8 %}
-        {% for post in rec_posts %}
+
+        {% assign rec_posts = site.posts | where_exp:"p","p.url != page.url" %}
+
+        {% for post in rec_posts limit:8 %}
         {% assign rf2 = "https://picsum.photos/seed/rec{{ forloop.index }}/400/200" %}
         {% assign rt2 = post.image_thumb | default: rf2 %}
-        <article class="article-card rec-card" data-cat="{{ post.categories | first }}" data-sub="{{ post.subcategory }}" data-url="{{ post.url | relative_url }}">
-          <a href="{{ post.url | relative_url }}" class="article-thumb article-thumb-sm" style="background-image:url('{{ rt2 }}')"></a>
+        <article class="article-card rec-card"
+          data-cat="{{ post.categories | first }}"
+          data-sub="{{ post.subcategory }}"
+          data-url="{{ post.url | relative_url }}">
+
+          <a href="{{ post.url | relative_url }}"
+             class="article-thumb article-thumb-sm"
+             style="background-image:url('{{ rt2 }}')"></a>
+
           <div class="article-card-body">
-            <h4 class="article-title article-title-sm"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
-            <span class="article-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h4 class="article-title article-title-sm">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h4>
+            <span class="article-meta">
+              {{ post.date | date: "%b %-d, %Y" }}
+            </span>
           </div>
         </article>
         {% endfor %}
+
       </div>
     </section>
 
   </div>
 
-  <!-- SIDEBAR -->
+  <!-- SIDEBAR (unchanged) -->
   <aside class="sidebar">
     <div class="sidebar-widget newsletter-widget">
       <h3>Get Weekly Guides</h3>
@@ -115,77 +129,33 @@ layout: default
         <button type="submit">Subscribe Free</button>
       </form>
     </div>
+
     <div class="sidebar-widget popular-widget">
       <h3>Most Popular</h3>
       <ul class="popular-list">
-        {% for post in site.posts limit: 8 %}
+        {% for post in site.posts limit:8 %}
         <li><a href="{{ post.url | relative_url }}">{{ post.title | truncate: 55 }}</a></li>
         {% endfor %}
       </ul>
     </div>
+
     <div class="sidebar-widget">
       <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7933433521355116" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
       <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
     </div>
+
     <div class="sidebar-widget">
       <h3>Browse Categories</h3>
       <ul class="popular-list">
-        <li><a href="/energy-power/">&#9889; Energy &amp; Power</a></li>
-        <li><a href="/home-garden/">&#127968; Home &amp; Garden</a></li>
-        <li><a href="/finance/">&#128181; Finance</a></li>
-        <li><a href="/technology/">&#128187; Technology</a></li>
-        <li><a href="/health/">&#128153; Health</a></li>
-        <li><a href="/automotive/">&#128663; Automotive</a></li>
-        <li><a href="/outdoors-camping/">&#9968; Outdoors &amp; Camping</a></li>
-        <li><a href="/seasonal/">&#127878; Seasonal</a></li>
+        <li><a href="/energy-power/">⚡ Energy &amp; Power</a></li>
+        <li><a href="/home-garden/">🏠 Home &amp; Garden</a></li>
+        <li><a href="/finance/">💰 Finance</a></li>
+        <li><a href="/technology/">💻 Technology</a></li>
+        <li><a href="/health/">💙 Health</a></li>
+        <li><a href="/automotive/">🚗 Automotive</a></li>
+        <li><a href="/outdoors-camping/">🏕 Outdoors &amp; Camping</a></li>
+        <li><a href="/seasonal/">🎄 Seasonal</a></li>
       </ul>
     </div>
   </aside>
 </div>
-
-<script>
-// ===== PERSONALISED RECOMMENDATIONS =====
-// Track current page visit
-(function() {
-  try {
-    var history = JSON.parse(localStorage.getItem('owlno_history') || '[]');
-    var current = {
-      url: window.location.pathname,
-      cat: '{{ page_cat }}',
-      sub: '{{ page_sub }}',
-      t: Date.now()
-    };
-    // Keep last 20 pages, dedupe by url
-    history = history.filter(function(h) { return h.url !== current.url; });
-    history.unshift(current);
-    if (history.length > 20) history = history.slice(0, 20);
-    localStorage.setItem('owlno_history', JSON.stringify(history));
-
-    // Build interest profile from history
-    var catCounts = {};
-    var subCounts = {};
-    history.forEach(function(h) {
-      if (h.cat) catCounts[h.cat] = (catCounts[h.cat] || 0) + 1;
-      if (h.sub) subCounts[h.sub] = (subCounts[h.sub] || 0) + 1;
-    });
-
-    // Score and sort recommendation cards
-    var cards = Array.from(document.querySelectorAll('.rec-card'));
-    cards.forEach(function(card) {
-      var score = 0;
-      var cat = card.getAttribute('data-cat');
-      var sub = card.getAttribute('data-sub');
-      if (catCounts[cat]) score += catCounts[cat] * 2;
-      if (subCounts[sub]) score += subCounts[sub] * 3;
-      card._score = score;
-    });
-
-    // Re-sort by score descending
-    var grid = document.getElementById('recommendedGrid');
-    if (grid && cards.length > 0) {
-      cards.sort(function(a, b) { return (b._score || 0) - (a._score || 0); });
-      cards.forEach(function(card) { grid.appendChild(card); });
-    }
-  } catch(e) {}
-})();
-</script>
