@@ -47,14 +47,13 @@ layout: default
       </div>
     </article>
 
-    <!-- RELATED ARTICLES -->
+    <!-- RELATED ARTICLES: same subcategory/tags, max 4, 2x2 grid -->
     {% assign page_sub = page.subcategory %}
     {% assign page_cat = page.categories | first %}
-
     {% if page_sub %}
-      {% assign related = site.posts | where:"subcategory", page_sub | where_exp:"p","p.url != page.url" %}
+      {% assign related = site.posts | where:"subcategory", page_sub | where_exp:"p","p.url != page.url" | limit: 4 %}
     {% else %}
-      {% assign related = site.posts | where_exp:"p","p.categories contains page_cat and p.url != page.url" %}
+      {% assign related = site.posts | where_exp:"p","p.categories contains page_cat and p.url != page.url" | limit: 4 %}
     {% endif %}
 
     {% if related.size > 0 %}
@@ -65,7 +64,7 @@ layout: default
         <a href="/{{ page_cat }}/" class="section-more">See all &rarr;</a>
       </div>
       <div class="related-grid">
-        {% for post in related limit:4 %}
+        {% for post in related %}
         {% assign rf = "https://picsum.photos/seed/r{{ forloop.index }}/400/250" %}
         {% assign rt = post.image_thumb | default: rf %}
         <article class="article-card">
@@ -79,6 +78,7 @@ layout: default
       </div>
     </section>
     {% endif %}
+
 
     <!-- YOU MAY ALSO LIKE -->
     <section class="recommended-posts">
