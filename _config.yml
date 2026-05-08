@@ -49,3 +49,6 @@ paginate: 12
 paginate_path: /page:num/
 encoding: utf-8
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
