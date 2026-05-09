@@ -14,10 +14,12 @@ layout: default
   <div class="content-wrap">
     <div class="main-content">
       {% if page.subcategory %}
-        {% assign sub_posts = site.posts | where_exp:"post","post.subcategory == page.subcategory" %}
-      {% else %}
-        {% assign sub_posts = site.posts | where_exp:"post","post.categories contains page.category" %}
-      {% endif %}
+   {% assign current_cat = page.category %}
+{% if current_sub %}
+  {% assign sub_posts = site.posts | where:"subcategory", current_sub %}
+{% else %}
+  {% assign sub_posts = site.posts | where_exp:"post","post.categories contains current_cat" %}
+{% endif %}
       {% if sub_posts.size > 0 %}
       <div class="section-header">
         <span class="section-title">{{ sub_posts.size }} Articles</span>
