@@ -11,15 +11,19 @@ layout: default
     <h1 class="category-page-title">{{ page.title }}</h1>
     {% if page.description %}<p class="category-page-desc">{{ page.description }}</p>{% endif %}
   </div>
+
   <div class="content-wrap">
     <div class="main-content">
-      {% if page.subcategory %}
-   {% assign current_cat = page.category %}
-{% if current_sub %}
-  {% assign sub_posts = site.posts | where:"subcategory", current_sub %}
-{% else %}
-  {% assign sub_posts = site.posts | where_exp:"post","post.categories contains current_cat" %}
-{% endif %}
+
+      {% assign current_sub = page.subcategory %}
+      {% assign current_cat = page.category %}
+
+      {% if current_sub %}
+        {% assign sub_posts = site.posts | where:"subcategory", current_sub %}
+      {% else %}
+        {% assign sub_posts = site.posts | where_exp:"post","post.categories contains current_cat" %}
+      {% endif %}
+
       {% if sub_posts.size > 0 %}
       <div class="section-header">
         <span class="section-title">{{ sub_posts.size }} Articles</span>
@@ -40,14 +44,18 @@ layout: default
         {% endfor %}
       </div>
       {% else %}
-      <div class="no-posts"><p>Articles coming soon for this section. <a href="/{{ page.category }}/">Browse all {{ page.category | replace:"-"," " | capitalize }} articles</a> or <a href="/">return home</a>.</p></div>
+      <div class="no-posts">
+        <p>Articles coming soon for this section. <a href="/{{ current_cat }}/">Browse all {{ current_cat | replace:"-"," " | capitalize }} articles</a> or <a href="/">return home</a>.</p>
+      </div>
       {% endif %}
+
     </div>
+
     <aside class="sidebar">
       <div class="sidebar-widget newsletter-widget">
         <h3>Get Weekly Guides</h3>
         <p>Free expert guides to your inbox.</p>
-        <form onsubmit="this.innerHTML='<p style=color:green>Subscribed!</p>';return false;">
+        <form onsubmit="this.innerHTML='<p style=color:green;font-weight:600>&#10003; Subscribed!</p>';return false;">
           <input type="email" placeholder="Enter your email" required>
           <button type="submit">Subscribe Free</button>
         </form>
@@ -56,8 +64,21 @@ layout: default
         <h3>Most Popular</h3>
         <ul class="popular-list">
           {% for post in site.posts limit: 8 %}
-          <li><a href="{{ post.url | relative_url }}">{{ post.title | truncate: 60 }}</a></li>
+          <li><a href="{{ post.url | relative_url }}">{{ post.title | truncate: 55 }}</a></li>
           {% endfor %}
+        </ul>
+      </div>
+      <div class="sidebar-widget">
+        <h3>Browse Categories</h3>
+        <ul class="popular-list">
+          <li><a href="/energy-power/">&#9889; Energy &amp; Power</a></li>
+          <li><a href="/home-garden/">&#127968; Home &amp; Garden</a></li>
+          <li><a href="/finance/">&#128181; Finance</a></li>
+          <li><a href="/technology/">&#128187; Technology</a></li>
+          <li><a href="/health/">&#128153; Health</a></li>
+          <li><a href="/automotive/">&#128663; Automotive</a></li>
+          <li><a href="/outdoors-camping/">&#9968; Outdoors &amp; Camping</a></li>
+          <li><a href="/seasonal/">&#127878; Seasonal</a></li>
         </ul>
       </div>
     </aside>
