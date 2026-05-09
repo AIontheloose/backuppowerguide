@@ -1,4 +1,4 @@
-﻿---
+---
 layout: category
 title: "Outdoors & Camping"
 category: outdoors-camping

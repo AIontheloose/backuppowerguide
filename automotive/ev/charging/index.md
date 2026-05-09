@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "EV Charging"
 category: automotive

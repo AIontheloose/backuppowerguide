@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Portable Generators"
 category: energy-power

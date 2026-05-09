@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Australian Routes"
 category: automotive

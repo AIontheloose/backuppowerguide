@@ -1,4 +1,4 @@
-﻿---
+---
 layout: category
 title: "Home & Garden"
 category: home-garden

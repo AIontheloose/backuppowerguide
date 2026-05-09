@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Camp Cooking"
 category: outdoors-camping

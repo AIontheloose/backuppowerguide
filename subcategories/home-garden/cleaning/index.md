@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Cleaning"
 category: home-garden

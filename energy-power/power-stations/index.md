@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Portable Power Stations"
 category: energy-power

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Recovery Gear"
 category: outdoors-camping

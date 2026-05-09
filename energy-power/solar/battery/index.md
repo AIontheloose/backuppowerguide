@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Solar Batteries"
 category: energy-power

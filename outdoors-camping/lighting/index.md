@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Camping Lighting"
 category: outdoors-camping

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Investing"
 category: finance

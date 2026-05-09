@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Smart Shopping"
 category: finance

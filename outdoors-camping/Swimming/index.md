@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Swimming"
 category: outdoors-camping

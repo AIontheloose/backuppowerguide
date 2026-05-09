@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Batteries & UPS"
 category: energy-power

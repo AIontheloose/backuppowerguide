@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Sleeping Gear"
 category: outdoors-camping

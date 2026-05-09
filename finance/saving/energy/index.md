@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Energy Savings"
 category: finance

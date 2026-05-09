@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Winter"
 category: seasonal

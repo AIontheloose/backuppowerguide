@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Diet Plans"
 category: health

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Nutrition"
 category: health

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Solar Monitoring"
 category: energy-power

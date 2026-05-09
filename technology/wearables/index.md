@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Wearables"
 category: technology

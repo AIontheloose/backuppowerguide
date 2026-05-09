@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Interior Design"
 category: home-garden

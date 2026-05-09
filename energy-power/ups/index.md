@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "UPS Systems"
 category: energy-power

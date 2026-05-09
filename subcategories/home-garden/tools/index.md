@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Tools & Equipment"
 category: home-garden

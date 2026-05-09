@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Tablets"
 category: technology

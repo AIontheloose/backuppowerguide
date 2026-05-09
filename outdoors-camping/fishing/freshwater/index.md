@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Freshwater Fishing"
 category: outdoors-camping

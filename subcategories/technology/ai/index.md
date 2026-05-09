@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Artificial Intelligence"
 category: technology

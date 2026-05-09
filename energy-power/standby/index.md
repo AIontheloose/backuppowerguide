@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Standby Generators"
 category: energy-power

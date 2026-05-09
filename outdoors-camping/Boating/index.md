@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Boating"
 category: outdoors-camping

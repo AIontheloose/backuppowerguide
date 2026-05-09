@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "ETFs"
 category: finance

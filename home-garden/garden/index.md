@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Garden"
 category: home-garden

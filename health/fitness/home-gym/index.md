@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Home Gym"
 category: health

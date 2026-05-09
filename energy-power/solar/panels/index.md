@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Solar Panels"
 category: energy-power

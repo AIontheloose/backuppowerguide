@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "4WD & Off-Road"
 category: outdoors-camping

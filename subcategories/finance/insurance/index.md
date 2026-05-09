@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Insurance"
 category: finance

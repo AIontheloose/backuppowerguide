@@ -1,4 +1,4 @@
-﻿---
+---
 layout: subcategory
 title: "Off-Grid Living"
 category: energy-power
