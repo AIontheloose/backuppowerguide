@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Renovation"
 category: home-garden

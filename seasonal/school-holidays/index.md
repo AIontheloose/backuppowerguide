@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "School Holidays"
 category: seasonal

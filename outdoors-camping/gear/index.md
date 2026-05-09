@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Camping Gear"
 category: outdoors-camping

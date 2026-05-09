@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Living Room"
 category: home-garden

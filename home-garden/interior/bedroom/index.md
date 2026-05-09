@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Bedroom Design"
 category: home-garden

@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Hiking"
 category: outdoors-camping

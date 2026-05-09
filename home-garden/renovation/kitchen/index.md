@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Kitchen Renovation"
 category: home-garden

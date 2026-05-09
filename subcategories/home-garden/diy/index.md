@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "DIY Projects"
 category: home-garden

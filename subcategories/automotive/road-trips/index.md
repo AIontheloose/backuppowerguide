@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Road Trips"
 category: automotive

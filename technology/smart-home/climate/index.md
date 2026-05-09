@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Climate Control"
 category: technology

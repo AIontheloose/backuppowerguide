@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Computers"
 category: technology

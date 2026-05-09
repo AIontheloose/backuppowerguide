@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Tech Reviews"
 category: technology

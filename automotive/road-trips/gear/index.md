@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Road Trip Gear"
 category: automotive

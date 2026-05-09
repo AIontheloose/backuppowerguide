@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Stress Management"
 category: health

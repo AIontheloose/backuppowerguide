@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Yoga & Pilates"
 category: health

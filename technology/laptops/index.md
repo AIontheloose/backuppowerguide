@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Laptops"
 category: technology

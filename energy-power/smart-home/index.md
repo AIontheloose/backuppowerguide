@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Smart Home Energy"
 category: energy-power

@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Fishing Gear"
 category: outdoors-camping

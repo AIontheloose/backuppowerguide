@@ -1,4 +1,4 @@
----
+﻿---
 layout: subcategory
 title: "Tents"
 category: outdoors-camping
