@@ -52,3 +52,14 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      subcategory: ""
