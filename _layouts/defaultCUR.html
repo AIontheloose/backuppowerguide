@@ -6,19 +6,7 @@
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}">
   <meta name="google-site-verification" content="IQqwyPjhVf0Tgj-JgnCojcdoAS2gtGae0hcTtyewCfk" />
-
-  <!-- Google Analytics GA4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ETQZBJ1BPC"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-ETQZBJ1BPC');
-  </script>
-
-  <!-- AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7933433521355116" crossorigin="anonymous"></script>
-
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
@@ -71,6 +59,7 @@
           <a href="/newsletter/" class="btn-subscribe">Subscribe</a>
         </div>
       </div>
+      <!-- Mobile header buttons -->
       <div class="mobile-header-btns">
         <button class="mobile-search-btn" onclick="toggleSearch()" aria-label="Search">&#128269;</button>
         <button class="hamburger" id="hamburger" onclick="toggleMobileMenu()" aria-label="Menu">
@@ -85,6 +74,7 @@
     <div class="nav-inner">
       <ul class="nav-list">
         <li class="nav-item"><a href="{{ '/' | relative_url }}">&#8962; Home</a></li>
+
         <li class="nav-item has-dropdown">
           <a href="/energy-power/">Energy &amp; Power</a>
           <ul class="dropdown mega-dropdown">
@@ -113,6 +103,7 @@
             </li>
           </ul>
         </li>
+
         <li class="nav-item has-dropdown">
           <a href="/home-garden/">Home &amp; Garden</a>
           <ul class="dropdown mega-dropdown">
@@ -141,6 +132,7 @@
             </li>
           </ul>
         </li>
+
         <li class="nav-item has-dropdown">
           <a href="/outdoors-camping/">Outdoors &amp; Camping</a>
           <ul class="dropdown mega-dropdown">
@@ -169,6 +161,7 @@
             </li>
           </ul>
         </li>
+
         <li class="nav-item has-dropdown">
           <a href="/finance/">Finance</a>
           <ul class="dropdown mega-dropdown">
@@ -197,6 +190,7 @@
             </li>
           </ul>
         </li>
+
         <li class="nav-item has-dropdown">
           <a href="/technology/">Technology</a>
           <ul class="dropdown mega-dropdown">
@@ -214,7 +208,7 @@
               <a href="/technology/smart-home/">Smart Home</a>
               <a href="/technology/security/">Security</a>
               <a href="/technology/lighting/">Smart Lighting</a>
-              <a href="/technology/ai/">AI Tools</a>
+              <a href="/technology/ai/">Artificial Intelligence</a>
               <a href="/technology/tools/">Tech Tools</a>
             </li>
             <li class="dropdown-col">
@@ -223,6 +217,7 @@
             </li>
           </ul>
         </li>
+
         <li class="nav-item has-dropdown">
           <a href="/health/">Health</a>
           <ul class="dropdown mega-dropdown">
@@ -249,6 +244,7 @@
             </li>
           </ul>
         </li>
+
         <li class="nav-item has-dropdown">
           <a href="/automotive/">Automotive</a>
           <ul class="dropdown mega-dropdown">
@@ -275,6 +271,7 @@
             </li>
           </ul>
         </li>
+
         <li class="nav-item has-dropdown">
           <a href="/seasonal/">Seasonal</a>
           <ul class="dropdown">
@@ -285,11 +282,13 @@
             <li><a href="/seasonal/school-holidays/">School Holidays</a></li>
           </ul>
         </li>
+
         <li class="nav-item nav-search">
           <button class="search-toggle" onclick="toggleSearch()" aria-label="Search">&#128269;</button>
         </li>
       </ul>
     </div>
+    <!-- Search bar -->
     <div class="search-bar" id="searchBar">
       <div class="search-bar-inner">
         <input type="text" id="searchInput" placeholder="Search articles..." autocomplete="off" oninput="runSearch(this.value)">
@@ -299,13 +298,13 @@
     </div>
   </nav>
 
-  <!-- Mobile Overlay -->
+  <!-- Mobile Menu Overlay -->
   <div class="mobile-overlay" id="mobileOverlay" onclick="toggleMobileMenu()"></div>
 
-  <!-- Mobile Menu -->
+  <!-- Mobile Slide-out Menu -->
   <div class="mobile-menu" id="mobileMenu">
     <div class="mobile-menu-header">
-      <span class="mobile-menu-title">{{ site.title }}</span>
+      <span class="mobile-menu-title">Menu</span>
       <button class="mobile-menu-close" onclick="toggleMobileMenu()">&#10005;</button>
     </div>
     <div class="mobile-menu-search">
@@ -314,14 +313,142 @@
     </div>
     <nav class="mobile-nav">
       <a href="/" class="mobile-nav-item">&#8962; Home</a>
-      <div class="mobile-nav-group"><button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Energy &amp; Power <span class="toggle-icon">+</span></button><div class="mobile-nav-children"><a href="/energy-power/">All Energy &amp; Power</a><a href="/energy-power/portable/">Portable Generators</a><a href="/energy-power/standby/">Standby Generators</a><a href="/energy-power/solar-panels/">Solar Panels</a><a href="/energy-power/solar-battery/">Solar Batteries</a><a href="/energy-power/off-grid/">Off-Grid Systems</a><a href="/energy-power/lithium/">Lithium Batteries</a><a href="/energy-power/ups/">UPS Systems</a><a href="/energy-power/power-stations/">Power Stations</a></div></div>
-      <div class="mobile-nav-group"><button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Home &amp; Garden <span class="toggle-icon">+</span></button><div class="mobile-nav-children"><a href="/home-garden/">All Home &amp; Garden</a><a href="/home-garden/kitchen/">Kitchen</a><a href="/home-garden/bathroom/">Bathroom</a><a href="/home-garden/flooring/">Flooring</a><a href="/home-garden/diy/">DIY Projects</a><a href="/home-garden/vegetable/">Vegetable Garden</a><a href="/home-garden/lawn/">Lawn Care</a><a href="/home-garden/plants/">Plants</a><a href="/home-garden/living/">Living Room</a><a href="/home-garden/bedroom/">Bedroom</a><a href="/home-garden/tools/">Tools</a><a href="/home-garden/cleaning/">Cleaning</a></div></div>
-      <div class="mobile-nav-group"><button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Outdoors &amp; Camping <span class="toggle-icon">+</span></button><div class="mobile-nav-children"><a href="/outdoors-camping/">All Outdoors</a><a href="/outdoors-camping/tents/">Tents</a><a href="/outdoors-camping/sleeping/">Sleeping Gear</a><a href="/outdoors-camping/cooking/">Camp Cooking</a><a href="/outdoors-camping/lighting/">Lighting</a><a href="/outdoors-camping/hiking/">Hiking</a><a href="/outdoors-camping/trails/">Australian Trails</a><a href="/outdoors-camping/4wd/">4WD</a><a href="/outdoors-camping/recovery/">Recovery Gear</a><a href="/outdoors-camping/survival/">Survival</a><a href="/outdoors-camping/freshwater/">Freshwater Fishing</a><a href="/outdoors-camping/saltwater/">Saltwater Fishing</a></div></div>
-      <div class="mobile-nav-group"><button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Finance <span class="toggle-icon">+</span></button><div class="mobile-nav-children"><a href="/finance/">All Finance</a><a href="/finance/budgeting/">Budgeting</a><a href="/finance/saving/">Saving</a><a href="/finance/asx/">ASX Shares</a><a href="/finance/etf/">ETFs</a><a href="/finance/property/">Property</a><a href="/finance/crypto/">Crypto</a><a href="/finance/superannuation/">Super</a><a href="/finance/home-insurance/">Home Insurance</a><a href="/finance/car-insurance/">Car Insurance</a></div></div>
-      <div class="mobile-nav-group"><button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Technology <span class="toggle-icon">+</span></button><div class="mobile-nav-children"><a href="/technology/">All Technology</a><a href="/technology/phones/">Smartphones</a><a href="/technology/tablets/">Tablets</a><a href="/technology/wearables/">Wearables</a><a href="/technology/computers/">Computers</a><a href="/technology/laptops/">Laptops</a><a href="/technology/smart-home/">Smart Home</a><a href="/technology/security/">Security</a><a href="/technology/lighting/">Smart Lighting</a><a href="/technology/ai/">AI Tools</a></div></div>
-      <div class="mobile-nav-group"><button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Health <span class="toggle-icon">+</span></button><div class="mobile-nav-children"><a href="/health/">All Health</a><a href="/health/home-gym/">Home Gym</a><a href="/health/running/">Running</a><a href="/health/yoga/">Yoga</a><a href="/health/weight-loss/">Weight Loss</a><a href="/health/meal-prep/">Meal Prep</a><a href="/health/supplements/">Supplements</a><a href="/health/mental-health/">Mental Health</a><a href="/health/sleep/">Sleep</a></div></div>
-      <div class="mobile-nav-group"><button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Automotive <span class="toggle-icon">+</span></button><div class="mobile-nav-children"><a href="/automotive/">All Automotive</a><a href="/automotive/new-cars/">New Cars</a><a href="/automotive/used-cars/">Used Cars</a><a href="/automotive/ev/">Electric Vehicles</a><a href="/automotive/charging/">EV Charging</a><a href="/automotive/diy/">DIY Repairs</a><a href="/automotive/tyres/">Tyres</a><a href="/automotive/road-trips/">Road Trips</a></div></div>
-      <div class="mobile-nav-group"><button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Seasonal <span class="toggle-icon">+</span></button><div class="mobile-nav-children"><a href="/seasonal/">All Seasonal</a><a href="/seasonal/summer/">Summer</a><a href="/seasonal/winter/">Winter</a><a href="/seasonal/christmas/">Christmas</a><a href="/seasonal/easter/">Easter</a><a href="/seasonal/school-holidays/">School Holidays</a></div></div>
+
+      <div class="mobile-nav-group">
+        <button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Energy &amp; Power <span>&#43;</span></button>
+        <div class="mobile-nav-children">
+          <a href="/energy-power/">All Energy &amp; Power</a>
+          <a href="/energy-power/portable/">Portable Generators</a>
+          <a href="/energy-power/standby/">Standby Generators</a>
+          <a href="/energy-power/inverter/">Inverter Generators</a>
+          <a href="/energy-power/dual-fuel/">Dual Fuel Generators</a>
+          <a href="/energy-power/solar-panels/">Solar Panels</a>
+          <a href="/energy-power/solar-battery/">Solar Batteries</a>
+          <a href="/energy-power/off-grid/">Off-Grid Systems</a>
+          <a href="/energy-power/lithium/">Lithium Batteries</a>
+          <a href="/energy-power/ups/">UPS Systems</a>
+          <a href="/energy-power/power-stations/">Power Stations</a>
+        </div>
+      </div>
+
+      <div class="mobile-nav-group">
+        <button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Home &amp; Garden <span>&#43;</span></button>
+        <div class="mobile-nav-children">
+          <a href="/home-garden/">All Home &amp; Garden</a>
+          <a href="/home-garden/kitchen/">Kitchen</a>
+          <a href="/home-garden/bathroom/">Bathroom</a>
+          <a href="/home-garden/flooring/">Flooring</a>
+          <a href="/home-garden/diy/">DIY Projects</a>
+          <a href="/home-garden/vegetable/">Vegetable Garden</a>
+          <a href="/home-garden/lawn/">Lawn Care</a>
+          <a href="/home-garden/plants/">Plants &amp; Flowers</a>
+          <a href="/home-garden/living/">Living Room</a>
+          <a href="/home-garden/bedroom/">Bedroom</a>
+          <a href="/home-garden/tools/">Tools</a>
+          <a href="/home-garden/cleaning/">Cleaning</a>
+        </div>
+      </div>
+
+      <div class="mobile-nav-group">
+        <button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Outdoors &amp; Camping <span>&#43;</span></button>
+        <div class="mobile-nav-children">
+          <a href="/outdoors-camping/">All Outdoors</a>
+          <a href="/outdoors-camping/tents/">Tents</a>
+          <a href="/outdoors-camping/sleeping/">Sleeping Gear</a>
+          <a href="/outdoors-camping/cooking/">Camp Cooking</a>
+          <a href="/outdoors-camping/lighting/">Lighting</a>
+          <a href="/outdoors-camping/hiking/">Hiking</a>
+          <a href="/outdoors-camping/trails/">Australian Trails</a>
+          <a href="/outdoors-camping/4wd/">4WD &amp; Off-Road</a>
+          <a href="/outdoors-camping/recovery/">Recovery Gear</a>
+          <a href="/outdoors-camping/survival/">Survival Skills</a>
+          <a href="/outdoors-camping/freshwater/">Freshwater Fishing</a>
+          <a href="/outdoors-camping/saltwater/">Saltwater Fishing</a>
+          <a href="/outdoors-camping/fishing-gear/">Fishing Gear</a>
+        </div>
+      </div>
+
+      <div class="mobile-nav-group">
+        <button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Finance <span>&#43;</span></button>
+        <div class="mobile-nav-children">
+          <a href="/finance/">All Finance</a>
+          <a href="/finance/budgeting/">Budgeting</a>
+          <a href="/finance/apps/">Budget Apps</a>
+          <a href="/finance/saving/">Saving Money</a>
+          <a href="/finance/energy/">Energy Savings</a>
+          <a href="/finance/shopping/">Smart Shopping</a>
+          <a href="/finance/asx/">ASX Shares</a>
+          <a href="/finance/etf/">ETFs</a>
+          <a href="/finance/property/">Property</a>
+          <a href="/finance/crypto/">Cryptocurrency</a>
+          <a href="/finance/superannuation/">Superannuation</a>
+          <a href="/finance/home-insurance/">Home Insurance</a>
+          <a href="/finance/car-insurance/">Car Insurance</a>
+        </div>
+      </div>
+
+      <div class="mobile-nav-group">
+        <button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Technology <span>&#43;</span></button>
+        <div class="mobile-nav-children">
+          <a href="/technology/">All Technology</a>
+          <a href="/technology/phones/">Smartphones</a>
+          <a href="/technology/tablets/">Tablets</a>
+          <a href="/technology/wearables/">Wearables</a>
+          <a href="/technology/computers/">Computers</a>
+          <a href="/technology/laptops/">Laptops</a>
+          <a href="/technology/smart-home/">Smart Home</a>
+          <a href="/technology/security/">Security</a>
+          <a href="/technology/lighting/">Smart Lighting</a>
+          <a href="/technology/ai/">AI Tools</a>
+          <a href="/technology/reviews/">Tech Reviews</a>
+        </div>
+      </div>
+
+      <div class="mobile-nav-group">
+        <button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Health <span>&#43;</span></button>
+        <div class="mobile-nav-children">
+          <a href="/health/">All Health</a>
+          <a href="/health/home-gym/">Home Gym</a>
+          <a href="/health/running/">Running</a>
+          <a href="/health/yoga/">Yoga &amp; Pilates</a>
+          <a href="/health/weight-loss/">Weight Loss</a>
+          <a href="/health/meal-prep/">Meal Prep</a>
+          <a href="/health/supplements/">Supplements</a>
+          <a href="/health/diets/">Diet Plans</a>
+          <a href="/health/mental-health/">Mental Health</a>
+          <a href="/health/stress/">Stress Management</a>
+          <a href="/health/sleep/">Sleep</a>
+        </div>
+      </div>
+
+      <div class="mobile-nav-group">
+        <button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Automotive <span>&#43;</span></button>
+        <div class="mobile-nav-children">
+          <a href="/automotive/">All Automotive</a>
+          <a href="/automotive/new-cars/">New Cars</a>
+          <a href="/automotive/used-cars/">Used Cars</a>
+          <a href="/automotive/ev/">Electric Vehicles</a>
+          <a href="/automotive/charging/">EV Charging</a>
+          <a href="/automotive/diy/">DIY Repairs</a>
+          <a href="/automotive/tyres/">Tyres</a>
+          <a href="/automotive/costs/">Running Costs</a>
+          <a href="/automotive/australia/">Australian Road Trips</a>
+          <a href="/automotive/gear/">Road Trip Gear</a>
+        </div>
+      </div>
+
+      <div class="mobile-nav-group">
+        <button class="mobile-nav-heading" onclick="toggleMobileGroup(this)">Seasonal <span>&#43;</span></button>
+        <div class="mobile-nav-children">
+          <a href="/seasonal/">All Seasonal</a>
+          <a href="/seasonal/summer/">Summer</a>
+          <a href="/seasonal/winter/">Winter</a>
+          <a href="/seasonal/christmas/">Christmas</a>
+          <a href="/seasonal/easter/">Easter</a>
+          <a href="/seasonal/school-holidays/">School Holidays</a>
+        </div>
+      </div>
+
       <div class="mobile-nav-footer">
         <a href="/about/">About</a>
         <a href="/newsletter/">Newsletter</a>
@@ -355,13 +482,13 @@
           <input type="email" name="email" placeholder="Your email address" required>
           <button type="submit">Subscribe</button>
         </form>
-        <p class="newsletter-success" id="newsletterSuccess" style="display:none;color:#4caf50;margin-top:8px;">&#10003; Thanks for subscribing!</p>
+        <p class="newsletter-success" id="newsletterSuccess" style="display:none;color:#4caf50;margin-top:8px;">Thanks for subscribing!</p>
       </div>
       <div class="footer-categories">
         <div class="footer-col">
           <h4>Energy &amp; Power</h4>
           <ul>
-            <li><a href="/energy-power/portable/">Portable Generators</a></li>
+            <li><a href="/energy-power/generators/">Generators</a></li>
             <li><a href="/energy-power/solar-panels/">Solar Panels</a></li>
             <li><a href="/energy-power/ups/">UPS Systems</a></li>
             <li><a href="/energy-power/off-grid/">Off-Grid Systems</a></li>
@@ -370,7 +497,7 @@
         <div class="footer-col">
           <h4>Home &amp; Finance</h4>
           <ul>
-            <li><a href="/home-garden/kitchen/">Kitchen Renovation</a></li>
+            <li><a href="/home-garden/kitchen/">Kitchen</a></li>
             <li><a href="/home-garden/garden/">Garden</a></li>
             <li><a href="/finance/budgeting/">Budgeting</a></li>
             <li><a href="/finance/asx/">ASX Investing</a></li>
@@ -398,7 +525,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved. Articles may contain affiliate links. Content is general information only and not professional advice. <a href="/privacy/">Privacy Policy</a> | <a href="/advertise/">Advertise</a></p>
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved. Articles may contain affiliate links. <a href="/privacy/">Privacy Policy</a> | <a href="/advertise/">Advertise</a></p>
       </div>
     </div>
   </footer>
@@ -406,71 +533,189 @@
   <script>
   // DATE & TIME
   function updateDateTime() {
-    var now=new Date(),days=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],months=['January','February','March','April','May','June','July','August','September','October','November','December'],h=now.getHours(),m=now.getMinutes(),ampm=h>=12?'PM':'AM';
-    h=h%12||12;
-    var el=document.getElementById('infoDatetime');
-    if(el)el.textContent=days[now.getDay()]+', '+months[now.getMonth()]+' '+now.getDate()+', '+now.getFullYear()+'  '+h+':'+(m<10?'0':'')+m+' '+ampm;
+    var now = new Date();
+    var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    var h = now.getHours(), m = now.getMinutes();
+    var ampm = h >= 12 ? 'PM' : 'AM';
+    h = h % 12 || 12;
+    var el = document.getElementById('infoDatetime');
+    if (el) el.textContent = days[now.getDay()] + ', ' + months[now.getMonth()] + ' ' + now.getDate() + ', ' + now.getFullYear() + '  ' + h + ':' + (m < 10 ? '0' : '') + m + ' ' + ampm;
   }
-  updateDateTime();setInterval(updateDateTime,30000);
+  updateDateTime();
+  setInterval(updateDateTime, 30000);
 
   // WEATHER
-  var wCodes={0:['Clear','☀️'],1:['Mainly Clear','☀️'],2:['Partly Cloudy','⛅'],3:['Overcast','☁️'],45:['Foggy','🌫️'],48:['Foggy','🌫️'],51:['Drizzle','🌦️'],53:['Drizzle','🌦️'],55:['Drizzle','🌦️'],61:['Rain','🌧️'],63:['Rain','🌧️'],65:['Heavy Rain','🌧️'],71:['Snow','❄️'],73:['Snow','❄️'],75:['Heavy Snow','❄️'],80:['Showers','🌧️'],81:['Showers','🌧️'],82:['Heavy Showers','🌧️'],95:['Storm','⛈️'],96:['Storm','⛈️'],99:['Storm','⛈️']};
-  function loadWeather(lat,lon,city){
+  var wCodes = {0:['Clear','☀️'],1:['Mainly Clear','☀️'],2:['Partly Cloudy','⛅'],3:['Overcast','☁️'],45:['Foggy','🌫️'],48:['Foggy','🌫️'],51:['Drizzle','🌦️'],53:['Drizzle','🌦️'],55:['Drizzle','🌦️'],61:['Rain','🌧️'],63:['Rain','🌧️'],65:['Heavy Rain','🌧️'],71:['Snow','❄️'],73:['Snow','❄️'],75:['Heavy Snow','❄️'],80:['Showers','🌧️'],81:['Showers','🌧️'],82:['Heavy Showers','🌧️'],95:['Storm','⛈️'],96:['Storm','⛈️'],99:['Storm','⛈️']};
+  function loadWeather(lat, lon, city) {
     fetch('https://api.open-meteo.com/v1/forecast?latitude='+lat+'&longitude='+lon+'&current_weather=true&temperature_unit=celsius')
       .then(function(r){return r.json();})
-      .then(function(d){var cw=d.current_weather,info=wCodes[cw.weathercode]||['Clear','☀️'];document.getElementById('weatherIcon').textContent=info[1];document.getElementById('weatherTemp').textContent=Math.round(cw.temperature)+'°C';document.getElementById('weatherDesc').textContent=info[0];document.getElementById('weatherCity').textContent=city?' — '+city:'';})
-      .catch(function(){document.getElementById('weatherDesc').textContent='Weather unavailable';});
+      .then(function(d){
+        var cw = d.current_weather, info = wCodes[cw.weathercode]||['Clear','☀️'];
+        document.getElementById('weatherIcon').textContent = info[1];
+        document.getElementById('weatherTemp').textContent = Math.round(cw.temperature)+'°C';
+        document.getElementById('weatherDesc').textContent = info[0];
+        document.getElementById('weatherCity').textContent = city ? ' — '+city : '';
+      }).catch(function(){document.getElementById('weatherDesc').textContent='Weather unavailable';});
   }
-  function initWeather(){
-    if(!navigator.geolocation){loadWeather(-33.8688,151.2093,'Sydney');return;}
+  function initWeather() {
+    if (!navigator.geolocation) { loadWeather(-33.8688,151.2093,'Sydney'); return; }
     navigator.geolocation.getCurrentPosition(
-      function(p){var lat=p.coords.latitude.toFixed(4),lon=p.coords.longitude.toFixed(4);fetch('https://nominatim.openstreetmap.org/reverse?format=json&lat='+lat+'&lon='+lon).then(function(r){return r.json();}).then(function(g){loadWeather(lat,lon,g.address.city||g.address.town||g.address.suburb||'');}).catch(function(){loadWeather(lat,lon,'');});},
-      function(){loadWeather(-33.8688,151.2093,'Sydney');},{timeout:8000});
+      function(p) {
+        var lat = p.coords.latitude.toFixed(4), lon = p.coords.longitude.toFixed(4);
+        fetch('https://nominatim.openstreetmap.org/reverse?format=json&lat='+lat+'&lon='+lon)
+          .then(function(r){return r.json();})
+          .then(function(g){loadWeather(lat,lon,g.address.city||g.address.town||g.address.suburb||'');})
+          .catch(function(){loadWeather(lat,lon,'');});
+      },
+      function(){loadWeather(-33.8688,151.2093,'Sydney');},
+      {timeout:8000}
+    );
   }
-  document.addEventListener('DOMContentLoaded',initWeather);
+  document.addEventListener('DOMContentLoaded', initWeather);
 
   // EXTERNAL LINKS
-  document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('a[href^="http"]').forEach(function(l){if(l.href.indexOf(location.hostname)===-1){l.setAttribute('target','_blank');l.setAttribute('rel','noopener noreferrer');}});});
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('a[href^="http"]').forEach(function(l) {
+      if (l.href.indexOf(location.hostname)===-1) { l.setAttribute('target','_blank'); l.setAttribute('rel','noopener noreferrer'); }
+    });
+  });
 
   // SOCIAL SIDEBAR
-  function toggleSidebar(){document.getElementById('socialSidebar').classList.toggle('open');}
+  function toggleSidebar() { document.getElementById('socialSidebar').classList.toggle('open'); }
 
-  // SEARCH
-  function toggleSearch(){
-    if(window.innerWidth<=768){toggleMobileMenu();setTimeout(function(){var i=document.getElementById('mobileSearchInput');if(i)i.focus();},300);}
-    else{var bar=document.getElementById('searchBar');if(bar){bar.classList.toggle('open');if(bar.classList.contains('open'))document.getElementById('searchInput').focus();}}
+  // DESKTOP SEARCH
+  function toggleSearch() {
+    var bar = document.getElementById('searchBar');
+    if (bar) {
+      bar.classList.toggle('open');
+      if (bar.classList.contains('open')) { document.getElementById('searchInput').focus(); }
+    }
   }
-  function runSearch(q){
-    var r=document.getElementById('searchResults');if(!r)return;
-    if(!q||q.length<2){r.innerHTML='';return;}
-    if(typeof window.searchData==='undefined'){r.innerHTML='<p style="padding:12px;color:#666">Loading...</p>';return;}
-    var m=window.searchData.filter(function(p){return(p.title+' '+p.excerpt+' '+p.tags).toLowerCase().indexOf(q.toLowerCase())!==-1;}).slice(0,8);
-    r.innerHTML=m.length===0?'<p class="no-results">No results found.</p>':m.map(function(p){return'<a href="'+p.url+'" class="search-result-item"><span class="sr-cat">'+p.category+'</span><span class="sr-title">'+p.title+'</span></a>';}).join('');
+
+  function runSearch(q) {
+    var results = document.getElementById('searchResults');
+    if (!results) return;
+    if (!q || q.length < 2) { results.innerHTML = ''; return; }
+    if (typeof window.searchData === 'undefined') { results.innerHTML = '<p style="padding:12px;color:#666">Search loading...</p>'; return; }
+    var matches = window.searchData.filter(function(p) {
+      return (p.title + ' ' + p.excerpt + ' ' + p.tags).toLowerCase().indexOf(q.toLowerCase()) !== -1;
+    }).slice(0, 8);
+    if (matches.length === 0) { results.innerHTML = '<p class="no-results">No results found.</p>'; return; }
+    results.innerHTML = matches.map(function(p) {
+      return '<a href="'+p.url+'" class="search-result-item"><span class="sr-cat">'+p.category+'</span><span class="sr-title">'+p.title+'</span></a>';
+    }).join('');
   }
-  function runMobileSearch(q){
-    var r=document.getElementById('mobileSearchResults');if(!r)return;
-    if(!q||q.length<2){r.innerHTML='';return;}
-    if(typeof window.searchData==='undefined'){r.innerHTML='<p style="padding:12px;color:#666">Loading...</p>';return;}
-    var m=window.searchData.filter(function(p){return(p.title+' '+p.excerpt+' '+p.tags).toLowerCase().indexOf(q.toLowerCase())!==-1;}).slice(0,6);
-    r.innerHTML=m.length===0?'<p class="no-results">No results.</p>':m.map(function(p){return'<a href="'+p.url+'" class="search-result-item"><span class="sr-cat">'+p.category+'</span><span class="sr-title">'+p.title+'</span></a>';}).join('');
+
+  // MOBILE SEARCH
+  function runMobileSearch(q) {
+    var results = document.getElementById('mobileSearchResults');
+    if (!results) return;
+    if (!q || q.length < 2) { results.innerHTML = ''; return; }
+    if (typeof window.searchData === 'undefined') { results.innerHTML = '<p style="padding:12px;color:#666">Search loading...</p>'; return; }
+    var matches = window.searchData.filter(function(p) {
+      return (p.title + ' ' + p.excerpt + ' ' + p.tags).toLowerCase().indexOf(q.toLowerCase()) !== -1;
+    }).slice(0, 6);
+    if (matches.length === 0) { results.innerHTML = '<p class="no-results">No results found.</p>'; return; }
+    results.innerHTML = matches.map(function(p) {
+      return '<a href="'+p.url+'" class="search-result-item"><span class="sr-cat">'+p.category+'</span><span class="sr-title">'+p.title+'</span></a>';
+    }).join('');
   }
-  document.addEventListener('keydown',function(e){if(e.key==='Escape'){var bar=document.getElementById('searchBar');if(bar)bar.classList.remove('open');closeMobileMenu();}});
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      var bar = document.getElementById('searchBar');
+      if (bar) bar.classList.remove('open');
+      closeMobileMenu();
+    }
+  });
 
   // MOBILE MENU
-  var mobileMenuOpen=false;
-  function toggleMobileMenu(){mobileMenuOpen=!mobileMenuOpen;var m=document.getElementById('mobileMenu'),o=document.getElementById('mobileOverlay'),h=document.getElementById('hamburger');if(m)m.classList.toggle('open',mobileMenuOpen);if(o)o.classList.toggle('open',mobileMenuOpen);if(h)h.classList.toggle('active',mobileMenuOpen);document.body.classList.toggle('menu-open',mobileMenuOpen);}
-  function closeMobileMenu(){mobileMenuOpen=false;var m=document.getElementById('mobileMenu'),o=document.getElementById('mobileOverlay'),h=document.getElementById('hamburger');if(m)m.classList.remove('open');if(o)o.classList.remove('open');if(h)h.classList.remove('active');document.body.classList.remove('menu-open');}
-  function toggleMobileGroup(btn){var c=btn.nextElementSibling,s=btn.querySelector('.toggle-icon'),isOpen=c.classList.contains('open');document.querySelectorAll('.mobile-nav-children.open').forEach(function(el){el.classList.remove('open');});document.querySelectorAll('.mobile-nav-heading .toggle-icon').forEach(function(s){s.textContent='+';});if(!isOpen){c.classList.add('open');if(s)s.textContent='−';}}
+  var mobileMenuOpen = false;
+  function toggleMobileMenu() {
+    mobileMenuOpen = !mobileMenuOpen;
+    var menu = document.getElementById('mobileMenu');
+    var overlay = document.getElementById('mobileOverlay');
+    var hamburger = document.getElementById('hamburger');
+    if (menu) menu.classList.toggle('open', mobileMenuOpen);
+    if (overlay) overlay.classList.toggle('open', mobileMenuOpen);
+    if (hamburger) hamburger.classList.toggle('active', mobileMenuOpen);
+    document.body.classList.toggle('menu-open', mobileMenuOpen);
+  }
+  function closeMobileMenu() {
+    mobileMenuOpen = false;
+    var menu = document.getElementById('mobileMenu');
+    var overlay = document.getElementById('mobileOverlay');
+    var hamburger = document.getElementById('hamburger');
+    if (menu) menu.classList.remove('open');
+    if (overlay) overlay.classList.remove('open');
+    if (hamburger) hamburger.classList.remove('active');
+    document.body.classList.remove('menu-open');
+  }
+  function toggleMobileGroup(btn) {
+    var children = btn.nextElementSibling;
+    var span = btn.querySelector('span');
+    var isOpen = children.classList.contains('open');
+    // Close all others
+    document.querySelectorAll('.mobile-nav-children.open').forEach(function(el) { el.classList.remove('open'); });
+    document.querySelectorAll('.mobile-nav-heading span').forEach(function(s) { s.textContent = '+'; });
+    if (!isOpen) {
+      children.classList.add('open');
+      if (span) span.textContent = '−';
+    }
+  }
 
   // NEWSLETTER
-  function handleNewsletterSubmit(e){e.preventDefault();document.getElementById('newsletterSuccess').style.display='block';e.target.reset();}
+  function handleNewsletterSubmit(e) {
+    e.preventDefault();
+    document.getElementById('newsletterSuccess').style.display = 'block';
+    e.target.reset();
+  }
 
   // CAROUSEL
-  var currentSlide=0,carouselTrack=null,carouselSlides=[],carouselDots=null;
-  function initCarousel(){carouselTrack=document.getElementById('carouselTrack');if(!carouselTrack)return;carouselSlides=carouselTrack.children;carouselDots=document.getElementById('carouselDots');if(carouselDots){for(var i=0;i<carouselSlides.length;i++){var dot=document.createElement('button');dot.className=i===0?'carousel-dot active':'carousel-dot';dot.setAttribute('data-index',i);dot.onclick=function(){goToSlide(parseInt(this.getAttribute('data-index')));};carouselDots.appendChild(dot);}}setInterval(function(){moveCarousel(1);},7000);}
-  function moveCarousel(dir){if(!carouselTrack||carouselSlides.length===0)return;currentSlide=(currentSlide+dir+carouselSlides.length)%carouselSlides.length;goToSlide(currentSlide);}
-  function goToSlide(n){currentSlide=n;if(carouselTrack)carouselTrack.style.transform='translateX(-'+(n*100)+'%)';var dots=document.querySelectorAll('.carousel-dot');for(var i=0;i<dots.length;i++)dots[i].classList.toggle('active',i===n);}
-  document.addEventListener('DOMContentLoaded',initCarousel);
+  var currentSlide = 0, carouselTrack = null, carouselSlides = [], carouselDots = null;
+  function initCarousel() {
+    carouselTrack = document.getElementById('carouselTrack');
+    if (!carouselTrack) return;
+    carouselSlides = carouselTrack.children;
+    carouselDots = document.getElementById('carouselDots');
+    if (carouselDots) {
+      for (var i = 0; i < carouselSlides.length; i++) {
+        var dot = document.createElement('button');
+        dot.className = i === 0 ? 'carousel-dot active' : 'carousel-dot';
+        dot.setAttribute('data-index', i);
+        dot.onclick = function() { goToSlide(parseInt(this.getAttribute('data-index'))); };
+        carouselDots.appendChild(dot);
+      }
+    }
+    setInterval(function() { moveCarousel(1); }, 6000);
+  }
+  function moveCarousel(dir) {
+    if (!carouselTrack || carouselSlides.length === 0) return;
+    currentSlide = (currentSlide + dir + carouselSlides.length) % carouselSlides.length;
+    goToSlide(currentSlide);
+  }
+  function goToSlide(n) {
+    currentSlide = n;
+    if (carouselTrack) carouselTrack.style.transform = 'translateX(-'+(n*100)+'%)';
+    var dots = document.querySelectorAll('.carousel-dot');
+    for (var i = 0; i < dots.length; i++) dots[i].classList.toggle('active', i === n);
+  }
+  document.addEventListener('DOMContentLoaded', initCarousel);
+
+  // MOBILE SEARCH BUTTON
+  function toggleSearch() {
+    var bar = document.getElementById('searchBar');
+    if (window.innerWidth <= 768) {
+      toggleMobileMenu();
+      setTimeout(function() { var inp = document.getElementById('mobileSearchInput'); if (inp) inp.focus(); }, 300);
+    } else {
+      if (bar) {
+        bar.classList.toggle('open');
+        if (bar.classList.contains('open')) { document.getElementById('searchInput').focus(); }
+      }
+    }
+  }
   </script>
 </body>
 </html>
