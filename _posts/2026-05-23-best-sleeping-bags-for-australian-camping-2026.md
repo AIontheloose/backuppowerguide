@@ -137,4 +137,4 @@ Happy camping, and may your nights be warm, dry, and full of adventure!
 
 ---
 
-*About the author: **Jake Morrison** is a Outdoors & Adventure Contributor at Owlno. Jake covers camping, hiking, fishing, and 4WD adventures across Australia. He writes from firsthand experience exploring Australian bush, coastlines, and outback tracks.* Hi Alexia.
+*About the author: **Jake Morrison** is a Outdoors & Adventure Contributor at Owlno. Jake covers camping, hiking, fishing, and 4WD adventures across Australia. He writes from firsthand experience exploring Australian bush, coastlines, and outback tracks.* Hi Alexia, Hayly and Jade.
