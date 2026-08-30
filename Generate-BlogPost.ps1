@@ -962,6 +962,78 @@ if ($availableTopics.Count -eq 0) {
     Write-Log "All in-season topics used - resetting in-season portion of the used list"
 }
 
+# Contributors - each has a name, short bio, a distinct writing voice, and the
+# categories they cover. Seasonal posts try to match on the specific occasion
+# (seasonalSubcategories) first, since that gives a much more natural fit than
+# just "seasonal" - e.g. the family-organiser persona writing Easter/back-to-school
+# posts, the money-coach persona writing Black Friday/New Year posts.
+$contributors = @(
+    @{
+        name = "Jack Nguyen"
+        slug = "jack-nguyen"
+        bio = "Licensed electrician and hands-on renovator who writes about the practical, get-it-done side of home and power."
+        voice = "Blunt and practical. Short, punchy sentences. Speaks like an experienced tradie explaining something to a mate - no fluff, no hype, just what works and what to avoid. Uses plain Australian phrasing."
+        categories = @("energy-power", "home-garden", "automotive")
+        seasonalSubcategories = @("winter")
+    },
+    @{
+        name = "Priya Anand"
+        slug = "priya-anand"
+        bio = "Former financial counsellor who now writes about everyday money decisions for Australian households."
+        voice = "Warm and clear, never judgmental about money mistakes. Breaks numbers down simply with real-world comparisons. Encouraging tone, avoids jargon, always brings it back to a concrete next step the reader can take."
+        categories = @("finance")
+        seasonalSubcategories = @("new-year", "black-friday", "boxing-day")
+    },
+    @{
+        name = "Sam Whitfield"
+        slug = "sam-whitfield"
+        bio = "Weekend adventurer who has camped, hiked and 4WDed across most of Australia, writing from experience."
+        voice = "Enthusiastic and first-person, like telling a story around a campfire. Leads with real experience and small anecdotes, weaves in safety reminders naturally rather than as a checklist. Loves an exclamation mark but doesn't overdo it."
+        categories = @("outdoors-camping")
+        seasonalSubcategories = @("summer", "australia-day", "anzac-day")
+    },
+    @{
+        name = "Leah Chen"
+        slug = "leah-chen"
+        bio = "Tech writer who specialises in explaining gadgets and software to everyday, non-technical readers."
+        voice = "Friendly and patient, like a knowledgeable friend explaining tech over coffee. Avoids jargon, and defines any term it does use in plain language. Uses simple analogies to make abstract tech concepts concrete."
+        categories = @("technology")
+        seasonalSubcategories = @()
+    },
+    @{
+        name = "Ben Foster"
+        slug = "ben-foster"
+        bio = "Health and habits writer focused on small, sustainable changes rather than extreme routines."
+        voice = "Calm and encouraging. Focuses on realistic, small steps rather than dramatic transformations. Never preachy or clinical, and avoids absolute claims - frames things as 'what tends to help' rather than strict rules."
+        categories = @("health")
+        seasonalSubcategories = @("spring")
+    },
+    @{
+        name = "Grace Holloway"
+        slug = "grace-holloway"
+        bio = "Interior stylist who writes about making homes feel warmer and more considered, season by season."
+        voice = "Warm, descriptive and a little cosy. Paints a picture of how a space or moment feels, not just what to buy. Design-forward but always keeps practicality and budget in view."
+        categories = @("home-garden")
+        seasonalSubcategories = @("christmas", "mothers-day", "valentines")
+    },
+    @{
+        name = "Dave Whitfield"
+        slug = "dave-whitfield"
+        bio = "Lifelong car enthusiast who writes for everyday drivers, not just petrolheads."
+        voice = "Straight-talking with a dry sense of humour. Explains car topics without talking down to the reader, and is upfront about trade-offs rather than oversimplifying. Occasionally self-deprecating about his own car obsession."
+        categories = @("automotive")
+        seasonalSubcategories = @()
+    },
+    @{
+        name = "Ava Sinclair"
+        slug = "ava-sinclair"
+        bio = "Parent of three who writes practical, budget-conscious guides for the chaos of family life."
+        voice = "Empathetic and solutions-focused, like advice from a friend who has been through the same school-holiday scramble. Acknowledges the stress or hassle before offering the practical fix. Down to earth, never precious."
+        categories = @()
+        seasonalSubcategories = @("back-to-school", "easter", "school-holidays", "halloween", "fathers-day")
+    }
+)
+
 $selected = $availableTopics | Get-Random
 $topic = $selected.topic
 $category = $selected.category
@@ -970,6 +1042,20 @@ $imageKeyword = $selected.image
 $tags = $selected.tags
 $amazonSearch = $selected.amazon
 
+# Match a contributor to this post: for seasonal topics, prefer whoever specialises
+# in that specific occasion; otherwise match on category; fall back to anyone.
+$matchingContributors = @()
+if ($category -eq "seasonal") {
+    $matchingContributors = $contributors | Where-Object { $_.seasonalSubcategories -contains $subcategory }
+}
+if ($matchingContributors.Count -eq 0) {
+    $matchingContributors = $contributors | Where-Object { $_.categories -contains $category }
+}
+if ($matchingContributors.Count -eq 0) {
+    $matchingContributors = $contributors
+}
+$contributor = $matchingContributors | Get-Random
+
 Add-Content -Path $usedTopicsFile -Value $topic
 
 $date = (Get-Date).ToUniversalTime().ToString("yyyy-MM-dd")
@@ -977,7 +1063,7 @@ $slug = $topic.ToLower() -replace '[^a-z0-9\s-]', '' -replace '\s+', '-'
 $filename = "$date-$slug.md"
 $filepath = "$postsPath/$filename"
 
-Write-Log "Generating article: [$category] $topic"
+Write-Log "Generating article: [$category] $topic (by $($contributor.name))"
 
 # Fetch Pexels image
 Write-Log "Fetching image: $imageKeyword"
@@ -1001,6 +1087,9 @@ if ($imageData) {
 $prompt = @"
 Write an 800 word SEO blog article about: $topic
 
+You are writing as $($contributor.name), a contributor with this background: $($contributor.bio)
+Write in this voice throughout the article: $($contributor.voice)
+
 The article should be practical, informative and written for an Australian audience where relevant.
 
 Naturally include 2-3 product recommendations. Format each as a markdown link:
@@ -1014,13 +1103,15 @@ title: "YOUR TITLE HERE"
 date: $date
 categories: [$category]
 tags: [$tags]
+author: "$($contributor.name)"
+author_bio: "$($contributor.bio)"
 image: "$imageUrl"
 image_thumb: "$imageThumb"
 image_credit: "$imageCredit"
 excerpt: "One sentence description."
 ---
 
-Write the full 800 word article in markdown with proper headings and paragraphs.
+Write the full 800 word article in markdown with proper headings and paragraphs, staying in the voice described above.
 Do not include anything outside the markdown file.
 "@
 
@@ -1050,7 +1141,7 @@ try {
         Set-Location $repoPath
         & git pull origin main --rebase 2>&1 | Out-Null
         & git add . 2>&1 | Out-Null
-        & git commit -m "New post [$category]: $topic" 2>&1 | Out-Null
+        & git commit -m "New post [$category] by $($contributor.name): $topic" 2>&1 | Out-Null
         & git push origin main 2>&1 | Out-Null
         Write-Log "Pushed: $filename"
     } else {
